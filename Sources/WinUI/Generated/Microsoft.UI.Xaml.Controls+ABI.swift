@@ -6,12 +6,20 @@ import Foundation
 @_spi(WinRTInternal) @_spi(WinRTImplements) import WindowsFoundation
 import CWinRT
 
-private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAnchorRequestedEventArgs: WindowsFoundation.IID {
-    .init(Data1: 0xD5645E80, Data2: 0xD4D3, Data3: 0x5DF8, Data4: ( 0xA3,0xAC,0x1F,0x9B,0xEE,0xB2,0xBC,0xEF ))// D5645E80-D4D3-5DF8-A3AC-1F9BEEB2BCEF
-}
-
 private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBar: WindowsFoundation.IID {
     .init(Data1: 0x3D8C2927, Data2: 0x5AC5, Data3: 0x51BB, Data4: ( 0x8B,0xEC,0x13,0xFF,0x4C,0x1B,0xD6,0xC8 ))// 3D8C2927-5AC5-51BB-8BEC-13FF4C1BD6C8
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButton: WindowsFoundation.IID {
+    .init(Data1: 0x8AB0E278, Data2: 0xB6AE, Data3: 0x569E, Data4: ( 0x8D,0xCD,0xD2,0x93,0x55,0x2F,0xE4,0xD5 ))// 8AB0E278-B6AE-569E-8DCD-D293552FE4D5
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButtonFactory: WindowsFoundation.IID {
+    .init(Data1: 0x4168A40A, Data2: 0xD11F, Data3: 0x5AEB, Data4: ( 0x97,0x4E,0xBB,0x43,0xA6,0xE7,0xF9,0xB2 ))// 4168A40A-D11F-5AEB-974E-BB43A6E7F9B2
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButtonStatics: WindowsFoundation.IID {
+    .init(Data1: 0x74327A2A, Data2: 0x18FA, Data3: 0x59C3, Data4: ( 0x82,0x68,0xEC,0x37,0x32,0xA4,0xD2,0x72 ))// 74327A2A-18FA-59C3-8268-EC3732A4D272
 }
 
 private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarFactory: WindowsFoundation.IID {
@@ -22,8 +30,32 @@ private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarOverrides: Window
     .init(Data1: 0x67F17798, Data2: 0xE281, Data3: 0x5E53, Data4: ( 0x8E,0xDF,0x42,0xC2,0x9C,0x35,0x4D,0x63 ))// 67F17798-E281-5E53-8EDF-42C29C354D63
 }
 
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarSeparator: WindowsFoundation.IID {
+    .init(Data1: 0x57BB94A3, Data2: 0x1E56, Data3: 0x5EBE, Data4: ( 0x8A,0x57,0x3A,0x24,0x3C,0x49,0x1D,0x67 ))// 57BB94A3-1E56-5EBE-8A57-3A243C491D67
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarSeparatorFactory: WindowsFoundation.IID {
+    .init(Data1: 0x6497D326, Data2: 0xFB55, Data3: 0x5CF5, Data4: ( 0x8C,0xC4,0xC5,0x56,0xB1,0xA9,0x58,0xFB ))// 6497D326-FB55-5CF5-8CC4-C556B1A958FB
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarSeparatorStatics: WindowsFoundation.IID {
+    .init(Data1: 0xDDA9A3D2, Data2: 0xD3B9, Data3: 0x5BE1, Data4: ( 0xAB,0xF7,0xDB,0xA1,0xEA,0xAF,0xE0,0xF7 ))// DDA9A3D2-D3B9-5BE1-ABF7-DBA1EAAFE0F7
+}
+
 private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarStatics: WindowsFoundation.IID {
     .init(Data1: 0x0DC7172C, Data2: 0xA03D, Data3: 0x5AE4, Data4: ( 0x95,0x38,0xFF,0xD8,0x04,0x82,0x3B,0xCE ))// 0DC7172C-A03D-5AE4-9538-FFD804823BCE
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButton: WindowsFoundation.IID {
+    .init(Data1: 0x9687C0B1, Data2: 0xC390, Data3: 0x59BE, Data4: ( 0xAC,0xDC,0x4F,0xC4,0x8F,0x55,0x28,0x23 ))// 9687C0B1-C390-59BE-ACDC-4FC48F552823
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButtonFactory: WindowsFoundation.IID {
+    .init(Data1: 0x07BFB2D6, Data2: 0x23B9, Data3: 0x57A2, Data4: ( 0x91,0x22,0x00,0x62,0x94,0xBF,0xA9,0x2F ))// 07BFB2D6-23B9-57A2-9122-006294BFA92F
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButtonStatics: WindowsFoundation.IID {
+    .init(Data1: 0x70021504, Data2: 0x3FE8, Data3: 0x53BC, Data4: ( 0xAB,0xD6,0xD6,0x97,0x62,0xF4,0xBC,0x87 ))// 70021504-3FE8-53BC-ABD6-D69762F4BC87
 }
 
 private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox: WindowsFoundation.IID {
@@ -140,6 +172,22 @@ private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIComboBoxStatics: Window
 
 private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIComboBoxTextSubmittedEventArgs: WindowsFoundation.IID {
     .init(Data1: 0x0D7A9794, Data2: 0x73B5, Data3: 0x585E, Data4: ( 0xBF,0xBB,0xDE,0x6D,0xF7,0xEB,0x9F,0xCF ))// 0D7A9794-73B5-585E-BFBB-DE6DF7EB9FCF
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar: WindowsFoundation.IID {
+    .init(Data1: 0xB7CA8EE3, Data2: 0xA07A, Data3: 0x5F69, Data4: ( 0x8A,0xB8,0xBE,0x4E,0x3E,0x4C,0xF0,0xC8 ))// B7CA8EE3-A07A-5F69-8AB8-BE4E3E4CF0C8
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarElement: WindowsFoundation.IID {
+    .init(Data1: 0xF8EB20B4, Data2: 0x373E, Data3: 0x5327, Data4: ( 0x99,0x42,0x66,0xA1,0xEA,0x21,0xF5,0xF9 ))// F8EB20B4-373E-5327-9942-66A1EA21F5F9
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarFactory: WindowsFoundation.IID {
+    .init(Data1: 0x8D4079C3, Data2: 0xFA0A, Data3: 0x5BB1, Data4: ( 0xB4,0x5D,0x49,0x9C,0x37,0x87,0x61,0xB4 ))// 8D4079C3-FA0A-5BB1-B45D-499C378761B4
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarStatics: WindowsFoundation.IID {
+    .init(Data1: 0x4ED65848, Data2: 0x4C67, Data3: 0x588F, Data4: ( 0x96,0x66,0x11,0xFF,0x56,0xD7,0x6F,0x02 ))// 4ED65848-4C67-588F-9666-11FF56D76F02
 }
 
 private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIContainerContentChangingEventArgs: WindowsFoundation.IID {
@@ -260,6 +308,10 @@ private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIDragItemsCompletedEvent
 
 private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIDragItemsStartingEventArgs: WindowsFoundation.IID {
     .init(Data1: 0xA6938886, Data2: 0x20DF, Data3: 0x558E, Data4: ( 0xAC,0x74,0xBB,0x5B,0x7F,0x2F,0x7E,0x90 ))// A6938886-20DF-558E-AC74-BB5B7F2F7E90
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIDynamicOverflowItemsChangingEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0xBF64C37F, Data2: 0x6332, Data3: 0x541D, Data4: ( 0x80,0xF1,0x87,0x6C,0x5B,0xB9,0xB1,0x96 ))// BF64C37F-6332-541D-80F1-876C5BB9B196
 }
 
 private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIFlipView: WindowsFoundation.IID {
@@ -1098,26 +1150,6 @@ private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewStatics: Wind
     .init(Data1: 0xAC966C50, Data2: 0x31F1, Data3: 0x5485, Data4: ( 0x8E,0x08,0xEE,0x7A,0x7E,0x9A,0x6F,0xD0 ))// AC966C50-31F1-5485-8E08-EE7A7E9A6FD0
 }
 
-private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer: WindowsFoundation.IID {
-    .init(Data1: 0x1DC28C2E, Data2: 0x996C, Data3: 0x5394, Data4: ( 0x89,0xC3,0x4D,0xC6,0x56,0xB4,0xAD,0x46 ))// 1DC28C2E-996C-5394-89C3-4DC656B4AD46
-}
-
-private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics: WindowsFoundation.IID {
-    .init(Data1: 0xD971FD86, Data2: 0x0A96, Data3: 0x50C4, Data4: ( 0xA6,0xE1,0x99,0x75,0xFA,0xA2,0xA1,0x42 ))// D971FD86-0A96-50C4-A6E1-9975FAA2A142
-}
-
-private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerView: WindowsFoundation.IID {
-    .init(Data1: 0x1E9F68EE, Data2: 0x6CE5, Data3: 0x5CBF, Data4: ( 0xBB,0xFE,0xB8,0xCD,0x28,0x4B,0x9C,0x23 ))// 1E9F68EE-6CE5-5CBF-BBFE-B8CD284B9C23
-}
-
-private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerViewChangedEventArgs: WindowsFoundation.IID {
-    .init(Data1: 0xBF7BB85B, Data2: 0x1D46, Data3: 0x5004, Data4: ( 0xA3,0x70,0xEC,0xB6,0x26,0x63,0x05,0x88 ))// BF7BB85B-1D46-5004-A370-ECB626630588
-}
-
-private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerViewChangingEventArgs: WindowsFoundation.IID {
-    .init(Data1: 0xAEE37D7C, Data2: 0x4696, Data3: 0x55F1, Data4: ( 0x96,0xCA,0x65,0x68,0x32,0xFC,0x0F,0xD2 ))// AEE37D7C-4696-55F1-96CA-656832FC0FD2
-}
-
 private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingAnchorRequestedEventArgs: WindowsFoundation.IID {
     .init(Data1: 0x6A46CB4B, Data2: 0xAB26, Data3: 0x55B2, Data4: ( 0xAA,0x76,0x9B,0x33,0x7A,0x4F,0x8E,0x8E ))// 6A46CB4B-AB26-55B2-AA76-9B337A4F8E8E
 }
@@ -1607,35 +1639,6 @@ private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextControlPasteEventHa
 }
 
 public enum __ABI_Microsoft_UI_Xaml_Controls {
-    public class IAnchorRequestedEventArgs: WindowsFoundation.IInspectable {
-        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAnchorRequestedEventArgs }
-
-        internal func get_AnchorImpl() throws -> WinUI.UIElement? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAnchorRequestedEventArgs.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_Anchor(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func put_AnchorImpl(_ value: WinUI.UIElement?) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAnchorRequestedEventArgs.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Anchor(pThis, RawPointer(value)))
-            }
-        }
-
-        internal func get_AnchorCandidatesImpl() throws -> WindowsFoundation.AnyIVector<WinUI.UIElement?>? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAnchorRequestedEventArgs.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_AnchorCandidates(pThis, &valueAbi))
-                }
-            }
-            return WinUI.__x_ABI_C__FIVector_1___x_ABI_CMicrosoft__CUI__CXaml__CUIElementWrapper.unwrapFrom(abi: value)
-        }
-
-    }
-
     public class IAppBar: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBar }
 
@@ -1770,6 +1773,165 @@ public enum __ABI_Microsoft_UI_Xaml_Controls {
 
     }
 
+    public class IAppBarButton: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButton }
+
+        internal func get_LabelImpl() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButton.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Label(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_LabelImpl(_ value: String) throws {
+            let _value = try! HString(value)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButton.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Label(pThis, _value.get()))
+            }
+        }
+
+        internal func get_IconImpl() throws -> WinUI.IconElement? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButton.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_Icon(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_IconImpl(_ value: WinUI.IconElement?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButton.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Icon(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_LabelPositionImpl() throws -> WinUI.CommandBarLabelPosition {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarLabelPosition = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButton.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_LabelPosition(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_LabelPositionImpl(_ value: WinUI.CommandBarLabelPosition) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButton.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_LabelPosition(pThis, value))
+            }
+        }
+
+        internal func get_KeyboardAcceleratorTextOverrideImpl() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButton.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_KeyboardAcceleratorTextOverride(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_KeyboardAcceleratorTextOverrideImpl(_ value: String) throws {
+            let _value = try! HString(value)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButton.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_KeyboardAcceleratorTextOverride(pThis, _value.get()))
+            }
+        }
+
+        internal func get_TemplateSettingsImpl() throws -> WinUI.AppBarButtonTemplateSettings? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButton.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TemplateSettings(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class IAppBarButtonFactory: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButtonFactory }
+
+        internal func CreateInstanceImpl(_ baseInterface: UnsealedWinRTClassWrapper<WinUI.AppBarButton.Composable>?, _ innerInterface: inout WindowsFoundation.IInspectable?) throws -> IAppBarButton {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                let _baseInterface = baseInterface?.toIInspectableABI { $0 }
+                let (_innerInterface) = try ComPtrs.initialize { _innerInterfaceAbi in
+                    _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButtonFactory.self) { pThis in
+                        try CHECKED(pThis.pointee.lpVtbl.pointee.CreateInstance(pThis, _baseInterface, &_innerInterfaceAbi, &valueAbi))
+                    }
+                }
+                innerInterface = WindowsFoundation.IInspectable(_innerInterface!)
+            }
+            return IAppBarButton(value!)
+        }
+
+    }
+
+    public class IAppBarButtonStatics: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButtonStatics }
+
+        internal func get_LabelPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButtonStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_LabelProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IconPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButtonStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IconProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_LabelPositionPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButtonStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_LabelPositionProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_KeyboardAcceleratorTextOverridePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButtonStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_KeyboardAcceleratorTextOverrideProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IsCompactPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButtonStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsCompactProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IsInOverflowPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButtonStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsInOverflowProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_DynamicOverflowOrderPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButtonStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_DynamicOverflowOrderProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
     public class IAppBarFactory: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarFactory }
 
@@ -1825,6 +1987,61 @@ public enum __ABI_Microsoft_UI_Xaml_Controls {
 
     }
 
+    public class IAppBarSeparator: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarSeparator }
+
+    }
+
+    public class IAppBarSeparatorFactory: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarSeparatorFactory }
+
+        internal func CreateInstanceImpl(_ baseInterface: UnsealedWinRTClassWrapper<WinUI.AppBarSeparator.Composable>?, _ innerInterface: inout WindowsFoundation.IInspectable?) throws -> IAppBarSeparator {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                let _baseInterface = baseInterface?.toIInspectableABI { $0 }
+                let (_innerInterface) = try ComPtrs.initialize { _innerInterfaceAbi in
+                    _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarSeparatorFactory.self) { pThis in
+                        try CHECKED(pThis.pointee.lpVtbl.pointee.CreateInstance(pThis, _baseInterface, &_innerInterfaceAbi, &valueAbi))
+                    }
+                }
+                innerInterface = WindowsFoundation.IInspectable(_innerInterface!)
+            }
+            return IAppBarSeparator(value!)
+        }
+
+    }
+
+    public class IAppBarSeparatorStatics: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarSeparatorStatics }
+
+        internal func get_IsCompactPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarSeparatorStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsCompactProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IsInOverflowPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarSeparatorStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsInOverflowProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_DynamicOverflowOrderPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarSeparatorStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_DynamicOverflowOrderProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
     public class IAppBarStatics: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarStatics }
 
@@ -1859,6 +2076,165 @@ public enum __ABI_Microsoft_UI_Xaml_Controls {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_LightDismissOverlayModeProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class IAppBarToggleButton: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButton }
+
+        internal func get_LabelImpl() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButton.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Label(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_LabelImpl(_ value: String) throws {
+            let _value = try! HString(value)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButton.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Label(pThis, _value.get()))
+            }
+        }
+
+        internal func get_IconImpl() throws -> WinUI.IconElement? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButton.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_Icon(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_IconImpl(_ value: WinUI.IconElement?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButton.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Icon(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_LabelPositionImpl() throws -> WinUI.CommandBarLabelPosition {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarLabelPosition = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButton.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_LabelPosition(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_LabelPositionImpl(_ value: WinUI.CommandBarLabelPosition) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButton.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_LabelPosition(pThis, value))
+            }
+        }
+
+        internal func get_KeyboardAcceleratorTextOverrideImpl() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButton.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_KeyboardAcceleratorTextOverride(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_KeyboardAcceleratorTextOverrideImpl(_ value: String) throws {
+            let _value = try! HString(value)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButton.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_KeyboardAcceleratorTextOverride(pThis, _value.get()))
+            }
+        }
+
+        internal func get_TemplateSettingsImpl() throws -> WinUI.AppBarToggleButtonTemplateSettings? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButton.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TemplateSettings(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class IAppBarToggleButtonFactory: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButtonFactory }
+
+        internal func CreateInstanceImpl(_ baseInterface: UnsealedWinRTClassWrapper<WinUI.AppBarToggleButton.Composable>?, _ innerInterface: inout WindowsFoundation.IInspectable?) throws -> IAppBarToggleButton {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                let _baseInterface = baseInterface?.toIInspectableABI { $0 }
+                let (_innerInterface) = try ComPtrs.initialize { _innerInterfaceAbi in
+                    _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButtonFactory.self) { pThis in
+                        try CHECKED(pThis.pointee.lpVtbl.pointee.CreateInstance(pThis, _baseInterface, &_innerInterfaceAbi, &valueAbi))
+                    }
+                }
+                innerInterface = WindowsFoundation.IInspectable(_innerInterface!)
+            }
+            return IAppBarToggleButton(value!)
+        }
+
+    }
+
+    public class IAppBarToggleButtonStatics: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButtonStatics }
+
+        internal func get_LabelPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButtonStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_LabelProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IconPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButtonStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IconProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_LabelPositionPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButtonStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_LabelPositionProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_KeyboardAcceleratorTextOverridePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButtonStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_KeyboardAcceleratorTextOverrideProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IsCompactPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButtonStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsCompactProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IsInOverflowPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButtonStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsInOverflowProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_DynamicOverflowOrderPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButtonStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_DynamicOverflowOrderProperty(pThis, &valueAbi))
                 }
             }
             return .from(abi: value)
@@ -3392,6 +3768,294 @@ public enum __ABI_Microsoft_UI_Xaml_Controls {
             _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIComboBoxTextSubmittedEventArgs.self) { pThis in
                 try CHECKED(pThis.pointee.lpVtbl.pointee.put_Handled(pThis, .init(from: value)))
             }
+        }
+
+    }
+
+    public class ICommandBar: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar }
+
+        internal func get_PrimaryCommandsImpl() throws -> WindowsFoundation.AnyIObservableVector<WinUI.AnyICommandBarElement?>? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PrimaryCommands(pThis, &valueAbi))
+                }
+            }
+            return WinUI.__x_ABI_C__FIObservableVector_1___x_ABI_CMicrosoft__CUI__CXaml__CControls__CICommandBarElementWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func get_SecondaryCommandsImpl() throws -> WindowsFoundation.AnyIObservableVector<WinUI.AnyICommandBarElement?>? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_SecondaryCommands(pThis, &valueAbi))
+                }
+            }
+            return WinUI.__x_ABI_C__FIObservableVector_1___x_ABI_CMicrosoft__CUI__CXaml__CControls__CICommandBarElementWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func get_CommandBarOverflowPresenterStyleImpl() throws -> WinUI.Style? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_CommandBarOverflowPresenterStyle(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_CommandBarOverflowPresenterStyleImpl(_ value: WinUI.Style?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_CommandBarOverflowPresenterStyle(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_CommandBarTemplateSettingsImpl() throws -> WinUI.CommandBarTemplateSettings? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_CommandBarTemplateSettings(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_DefaultLabelPositionImpl() throws -> WinUI.CommandBarDefaultLabelPosition {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarDefaultLabelPosition = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_DefaultLabelPosition(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_DefaultLabelPositionImpl(_ value: WinUI.CommandBarDefaultLabelPosition) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_DefaultLabelPosition(pThis, value))
+            }
+        }
+
+        internal func get_OverflowButtonVisibilityImpl() throws -> WinUI.CommandBarOverflowButtonVisibility {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarOverflowButtonVisibility = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_OverflowButtonVisibility(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_OverflowButtonVisibilityImpl(_ value: WinUI.CommandBarOverflowButtonVisibility) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_OverflowButtonVisibility(pThis, value))
+            }
+        }
+
+        internal func get_IsDynamicOverflowEnabledImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsDynamicOverflowEnabled(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_IsDynamicOverflowEnabledImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsDynamicOverflowEnabled(pThis, .init(from: value)))
+            }
+        }
+
+        internal func add_DynamicOverflowItemsChangingImpl(_ handler: TypedEventHandler<WinUI.CommandBar?, WinUI.DynamicOverflowItemsChangingEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CCommandBar___x_ABI_CMicrosoft__CUI__CXaml__CControls__CDynamicOverflowItemsChangingEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_DynamicOverflowItemsChanging(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        internal func remove_DynamicOverflowItemsChangingImpl(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_DynamicOverflowItemsChanging(pThis, token))
+            }
+        }
+
+    }
+
+    public class ICommandBarElement: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarElement }
+
+        open func get_IsCompactImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarElement.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsCompact(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        open func put_IsCompactImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarElement.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsCompact(pThis, .init(from: value)))
+            }
+        }
+
+        open func get_IsInOverflowImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarElement.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsInOverflow(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        open func get_DynamicOverflowOrderImpl() throws -> Int32 {
+            var value: INT32 = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarElement.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_DynamicOverflowOrder(pThis, &value))
+            }
+            return value
+        }
+
+        open func put_DynamicOverflowOrderImpl(_ value: Int32) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarElement.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_DynamicOverflowOrder(pThis, value))
+            }
+        }
+
+    }
+
+    internal static var ICommandBarElementVTable: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarElementVtbl = .init(
+        QueryInterface: { ICommandBarElementWrapper.queryInterface($0, $1, $2) },
+        AddRef: { ICommandBarElementWrapper.addRef($0) },
+        Release: { ICommandBarElementWrapper.release($0) },
+        GetIids: {
+            let size = MemoryLayout<WindowsFoundation.IID>.size
+            let iids = CoTaskMemAlloc(UInt64(size) * 3).assumingMemoryBound(to: WindowsFoundation.IID.self)
+            iids[0] = IUnknown.IID
+            iids[1] = IInspectable.IID
+            iids[2] = __ABI_Microsoft_UI_Xaml_Controls.ICommandBarElementWrapper.IID
+            $1!.pointee = 3
+            $2!.pointee = iids
+            return S_OK
+        },
+
+        GetRuntimeClassName: {
+            _ = $0
+            let hstring = try! HString("Microsoft.UI.Xaml.Controls.ICommandBarElement").detach()
+            $1!.pointee = hstring
+            return S_OK
+        },
+
+        GetTrustLevel: {
+            _ = $0
+            $1!.pointee = TrustLevel(rawValue: 0)
+            return S_OK
+        },
+
+        get_IsCompact: {
+            guard let __unwrapped__instance = ICommandBarElementWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
+            let value = __unwrapped__instance.isCompact
+            $1?.initialize(to: .init(from: value))
+            return S_OK
+        },
+
+        put_IsCompact: {
+            guard let __unwrapped__instance = ICommandBarElementWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
+            let value: Bool = .init(from: $1)
+            __unwrapped__instance.isCompact = value
+            return S_OK
+        },
+
+        get_IsInOverflow: {
+            guard let __unwrapped__instance = ICommandBarElementWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
+            let value = __unwrapped__instance.isInOverflow
+            $1?.initialize(to: .init(from: value))
+            return S_OK
+        },
+
+        get_DynamicOverflowOrder: {
+            guard let __unwrapped__instance = ICommandBarElementWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
+            let value = __unwrapped__instance.dynamicOverflowOrder
+            $1?.initialize(to: value)
+            return S_OK
+        },
+
+        put_DynamicOverflowOrder: {
+            guard let __unwrapped__instance = ICommandBarElementWrapper.tryUnwrapFrom(raw: $0) else { return E_INVALIDARG }
+            let value: Int32 = $1
+            __unwrapped__instance.dynamicOverflowOrder = value
+            return S_OK
+        }
+    )
+
+    public typealias ICommandBarElementWrapper = InterfaceWrapperBase<__IMPL_Microsoft_UI_Xaml_Controls.ICommandBarElementBridge>
+    public class ICommandBarFactory: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarFactory }
+
+        internal func CreateInstanceImpl(_ baseInterface: UnsealedWinRTClassWrapper<WinUI.CommandBar.Composable>?, _ innerInterface: inout WindowsFoundation.IInspectable?) throws -> ICommandBar {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                let _baseInterface = baseInterface?.toIInspectableABI { $0 }
+                let (_innerInterface) = try ComPtrs.initialize { _innerInterfaceAbi in
+                    _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarFactory.self) { pThis in
+                        try CHECKED(pThis.pointee.lpVtbl.pointee.CreateInstance(pThis, _baseInterface, &_innerInterfaceAbi, &valueAbi))
+                    }
+                }
+                innerInterface = WindowsFoundation.IInspectable(_innerInterface!)
+            }
+            return ICommandBar(value!)
+        }
+
+    }
+
+    public class ICommandBarStatics: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarStatics }
+
+        internal func get_PrimaryCommandsPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PrimaryCommandsProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_SecondaryCommandsPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_SecondaryCommandsProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_CommandBarOverflowPresenterStylePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_CommandBarOverflowPresenterStyleProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_DefaultLabelPositionPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_DefaultLabelPositionProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_OverflowButtonVisibilityPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_OverflowButtonVisibilityProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IsDynamicOverflowEnabledPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBarStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsDynamicOverflowEnabledProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
         }
 
     }
@@ -6087,6 +6751,19 @@ public enum __ABI_Microsoft_UI_Xaml_Controls {
                 }
             }
             return .from(abi: value)
+        }
+
+    }
+
+    public class IDynamicOverflowItemsChangingEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIDynamicOverflowItemsChangingEventArgs }
+
+        internal func get_ActionImpl() throws -> WinUI.CommandBarDynamicOverflowAction {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarDynamicOverflowAction = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIDynamicOverflowItemsChangingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Action(pThis, &value))
+            }
+            return value
         }
 
     }
@@ -17405,1283 +18082,6 @@ public enum __ABI_Microsoft_UI_Xaml_Controls {
                 }
             }
             return .from(abi: value)
-        }
-
-    }
-
-    public class IScrollViewer: WindowsFoundation.IInspectable {
-        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer }
-
-        internal func get_HorizontalScrollBarVisibilityImpl() throws -> WinUI.ScrollBarVisibility {
-            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollBarVisibility = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_HorizontalScrollBarVisibility(pThis, &value))
-            }
-            return value
-        }
-
-        internal func put_HorizontalScrollBarVisibilityImpl(_ value: WinUI.ScrollBarVisibility) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_HorizontalScrollBarVisibility(pThis, value))
-            }
-        }
-
-        internal func get_VerticalScrollBarVisibilityImpl() throws -> WinUI.ScrollBarVisibility {
-            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollBarVisibility = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_VerticalScrollBarVisibility(pThis, &value))
-            }
-            return value
-        }
-
-        internal func put_VerticalScrollBarVisibilityImpl(_ value: WinUI.ScrollBarVisibility) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_VerticalScrollBarVisibility(pThis, value))
-            }
-        }
-
-        internal func get_IsHorizontalRailEnabledImpl() throws -> Bool {
-            var value: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsHorizontalRailEnabled(pThis, &value))
-            }
-            return .init(from: value)
-        }
-
-        internal func put_IsHorizontalRailEnabledImpl(_ value: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsHorizontalRailEnabled(pThis, .init(from: value)))
-            }
-        }
-
-        internal func get_IsVerticalRailEnabledImpl() throws -> Bool {
-            var value: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsVerticalRailEnabled(pThis, &value))
-            }
-            return .init(from: value)
-        }
-
-        internal func put_IsVerticalRailEnabledImpl(_ value: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsVerticalRailEnabled(pThis, .init(from: value)))
-            }
-        }
-
-        internal func get_IsHorizontalScrollChainingEnabledImpl() throws -> Bool {
-            var value: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsHorizontalScrollChainingEnabled(pThis, &value))
-            }
-            return .init(from: value)
-        }
-
-        internal func put_IsHorizontalScrollChainingEnabledImpl(_ value: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsHorizontalScrollChainingEnabled(pThis, .init(from: value)))
-            }
-        }
-
-        internal func get_IsVerticalScrollChainingEnabledImpl() throws -> Bool {
-            var value: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsVerticalScrollChainingEnabled(pThis, &value))
-            }
-            return .init(from: value)
-        }
-
-        internal func put_IsVerticalScrollChainingEnabledImpl(_ value: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsVerticalScrollChainingEnabled(pThis, .init(from: value)))
-            }
-        }
-
-        internal func get_IsZoomChainingEnabledImpl() throws -> Bool {
-            var value: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsZoomChainingEnabled(pThis, &value))
-            }
-            return .init(from: value)
-        }
-
-        internal func put_IsZoomChainingEnabledImpl(_ value: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsZoomChainingEnabled(pThis, .init(from: value)))
-            }
-        }
-
-        internal func get_IsScrollInertiaEnabledImpl() throws -> Bool {
-            var value: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsScrollInertiaEnabled(pThis, &value))
-            }
-            return .init(from: value)
-        }
-
-        internal func put_IsScrollInertiaEnabledImpl(_ value: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsScrollInertiaEnabled(pThis, .init(from: value)))
-            }
-        }
-
-        internal func get_IsZoomInertiaEnabledImpl() throws -> Bool {
-            var value: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsZoomInertiaEnabled(pThis, &value))
-            }
-            return .init(from: value)
-        }
-
-        internal func put_IsZoomInertiaEnabledImpl(_ value: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsZoomInertiaEnabled(pThis, .init(from: value)))
-            }
-        }
-
-        internal func get_HorizontalScrollModeImpl() throws -> WinUI.ScrollMode {
-            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollMode = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_HorizontalScrollMode(pThis, &value))
-            }
-            return value
-        }
-
-        internal func put_HorizontalScrollModeImpl(_ value: WinUI.ScrollMode) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_HorizontalScrollMode(pThis, value))
-            }
-        }
-
-        internal func get_VerticalScrollModeImpl() throws -> WinUI.ScrollMode {
-            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollMode = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_VerticalScrollMode(pThis, &value))
-            }
-            return value
-        }
-
-        internal func put_VerticalScrollModeImpl(_ value: WinUI.ScrollMode) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_VerticalScrollMode(pThis, value))
-            }
-        }
-
-        internal func get_ZoomModeImpl() throws -> WinUI.ZoomMode {
-            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CZoomMode = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ZoomMode(pThis, &value))
-            }
-            return value
-        }
-
-        internal func put_ZoomModeImpl(_ value: WinUI.ZoomMode) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_ZoomMode(pThis, value))
-            }
-        }
-
-        internal func get_HorizontalSnapPointsAlignmentImpl() throws -> WinUI.SnapPointsAlignment {
-            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CSnapPointsAlignment = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_HorizontalSnapPointsAlignment(pThis, &value))
-            }
-            return value
-        }
-
-        internal func put_HorizontalSnapPointsAlignmentImpl(_ value: WinUI.SnapPointsAlignment) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_HorizontalSnapPointsAlignment(pThis, value))
-            }
-        }
-
-        internal func get_VerticalSnapPointsAlignmentImpl() throws -> WinUI.SnapPointsAlignment {
-            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CSnapPointsAlignment = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_VerticalSnapPointsAlignment(pThis, &value))
-            }
-            return value
-        }
-
-        internal func put_VerticalSnapPointsAlignmentImpl(_ value: WinUI.SnapPointsAlignment) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_VerticalSnapPointsAlignment(pThis, value))
-            }
-        }
-
-        internal func get_HorizontalSnapPointsTypeImpl() throws -> WinUI.SnapPointsType {
-            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSnapPointsType = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_HorizontalSnapPointsType(pThis, &value))
-            }
-            return value
-        }
-
-        internal func put_HorizontalSnapPointsTypeImpl(_ value: WinUI.SnapPointsType) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_HorizontalSnapPointsType(pThis, value))
-            }
-        }
-
-        internal func get_VerticalSnapPointsTypeImpl() throws -> WinUI.SnapPointsType {
-            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSnapPointsType = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_VerticalSnapPointsType(pThis, &value))
-            }
-            return value
-        }
-
-        internal func put_VerticalSnapPointsTypeImpl(_ value: WinUI.SnapPointsType) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_VerticalSnapPointsType(pThis, value))
-            }
-        }
-
-        internal func get_ZoomSnapPointsTypeImpl() throws -> WinUI.SnapPointsType {
-            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSnapPointsType = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ZoomSnapPointsType(pThis, &value))
-            }
-            return value
-        }
-
-        internal func put_ZoomSnapPointsTypeImpl(_ value: WinUI.SnapPointsType) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_ZoomSnapPointsType(pThis, value))
-            }
-        }
-
-        internal func get_HorizontalOffsetImpl() throws -> Double {
-            var value: DOUBLE = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_HorizontalOffset(pThis, &value))
-            }
-            return value
-        }
-
-        internal func get_ViewportWidthImpl() throws -> Double {
-            var value: DOUBLE = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ViewportWidth(pThis, &value))
-            }
-            return value
-        }
-
-        internal func get_ScrollableWidthImpl() throws -> Double {
-            var value: DOUBLE = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ScrollableWidth(pThis, &value))
-            }
-            return value
-        }
-
-        internal func get_ComputedHorizontalScrollBarVisibilityImpl() throws -> WinUI.Visibility {
-            var value: __x_ABI_CMicrosoft_CUI_CXaml_CVisibility = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ComputedHorizontalScrollBarVisibility(pThis, &value))
-            }
-            return value
-        }
-
-        internal func get_ExtentWidthImpl() throws -> Double {
-            var value: DOUBLE = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExtentWidth(pThis, &value))
-            }
-            return value
-        }
-
-        internal func get_VerticalOffsetImpl() throws -> Double {
-            var value: DOUBLE = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_VerticalOffset(pThis, &value))
-            }
-            return value
-        }
-
-        internal func get_ViewportHeightImpl() throws -> Double {
-            var value: DOUBLE = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ViewportHeight(pThis, &value))
-            }
-            return value
-        }
-
-        internal func get_ScrollableHeightImpl() throws -> Double {
-            var value: DOUBLE = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ScrollableHeight(pThis, &value))
-            }
-            return value
-        }
-
-        internal func get_ComputedVerticalScrollBarVisibilityImpl() throws -> WinUI.Visibility {
-            var value: __x_ABI_CMicrosoft_CUI_CXaml_CVisibility = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ComputedVerticalScrollBarVisibility(pThis, &value))
-            }
-            return value
-        }
-
-        internal func get_ExtentHeightImpl() throws -> Double {
-            var value: DOUBLE = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExtentHeight(pThis, &value))
-            }
-            return value
-        }
-
-        internal func get_MinZoomFactorImpl() throws -> Float {
-            var value: FLOAT = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_MinZoomFactor(pThis, &value))
-            }
-            return value
-        }
-
-        internal func put_MinZoomFactorImpl(_ value: Float) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_MinZoomFactor(pThis, value))
-            }
-        }
-
-        internal func get_MaxZoomFactorImpl() throws -> Float {
-            var value: FLOAT = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_MaxZoomFactor(pThis, &value))
-            }
-            return value
-        }
-
-        internal func put_MaxZoomFactorImpl(_ value: Float) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_MaxZoomFactor(pThis, value))
-            }
-        }
-
-        internal func get_ZoomFactorImpl() throws -> Float {
-            var value: FLOAT = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ZoomFactor(pThis, &value))
-            }
-            return value
-        }
-
-        internal func get_ZoomSnapPointsImpl() throws -> WindowsFoundation.AnyIVector<Float>? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ZoomSnapPoints(pThis, &valueAbi))
-                }
-            }
-            return WinUI.__x_ABI_C__FIVector_1_floatWrapper.unwrapFrom(abi: value)
-        }
-
-        internal func get_TopLeftHeaderImpl() throws -> WinUI.UIElement? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TopLeftHeader(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func put_TopLeftHeaderImpl(_ value: WinUI.UIElement?) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_TopLeftHeader(pThis, RawPointer(value)))
-            }
-        }
-
-        internal func get_LeftHeaderImpl() throws -> WinUI.UIElement? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_LeftHeader(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func put_LeftHeaderImpl(_ value: WinUI.UIElement?) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_LeftHeader(pThis, RawPointer(value)))
-            }
-        }
-
-        internal func get_TopHeaderImpl() throws -> WinUI.UIElement? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TopHeader(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func put_TopHeaderImpl(_ value: WinUI.UIElement?) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_TopHeader(pThis, RawPointer(value)))
-            }
-        }
-
-        internal func get_ReduceViewportForCoreInputViewOcclusionsImpl() throws -> Bool {
-            var value: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ReduceViewportForCoreInputViewOcclusions(pThis, &value))
-            }
-            return .init(from: value)
-        }
-
-        internal func put_ReduceViewportForCoreInputViewOcclusionsImpl(_ value: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_ReduceViewportForCoreInputViewOcclusions(pThis, .init(from: value)))
-            }
-        }
-
-        internal func get_HorizontalAnchorRatioImpl() throws -> Double {
-            var value: DOUBLE = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_HorizontalAnchorRatio(pThis, &value))
-            }
-            return value
-        }
-
-        internal func put_HorizontalAnchorRatioImpl(_ value: Double) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_HorizontalAnchorRatio(pThis, value))
-            }
-        }
-
-        internal func get_VerticalAnchorRatioImpl() throws -> Double {
-            var value: DOUBLE = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_VerticalAnchorRatio(pThis, &value))
-            }
-            return value
-        }
-
-        internal func put_VerticalAnchorRatioImpl(_ value: Double) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_VerticalAnchorRatio(pThis, value))
-            }
-        }
-
-        internal func get_CanContentRenderOutsideBoundsImpl() throws -> Bool {
-            var value: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_CanContentRenderOutsideBounds(pThis, &value))
-            }
-            return .init(from: value)
-        }
-
-        internal func put_CanContentRenderOutsideBoundsImpl(_ value: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_CanContentRenderOutsideBounds(pThis, .init(from: value)))
-            }
-        }
-
-        internal func add_AnchorRequestedImpl(_ handler: TypedEventHandler<WinUI.ScrollViewer?, WinUI.AnchorRequestedEventArgs?>?) throws -> EventRegistrationToken {
-            var token: EventRegistrationToken = .init()
-            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollViewer___x_ABI_CMicrosoft__CUI__CXaml__CControls__CAnchorRequestedEventArgsWrapper(handler)
-            let _handler = try! handlerWrapper?.toABI { $0 }
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.add_AnchorRequested(pThis, _handler, &token))
-            }
-            return token
-        }
-
-        internal func remove_AnchorRequestedImpl(_ token: EventRegistrationToken) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_AnchorRequested(pThis, token))
-            }
-        }
-
-        internal func add_ViewChangingImpl(_ handler: EventHandler<WinUI.ScrollViewerViewChangingEventArgs?>?) throws -> EventRegistrationToken {
-            var token: EventRegistrationToken = .init()
-            let handlerWrapper = WinUI.__x_ABI_C__FIEventHandler_1___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollViewerViewChangingEventArgsWrapper(handler)
-            let _handler = try! handlerWrapper?.toABI { $0 }
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.add_ViewChanging(pThis, _handler, &token))
-            }
-            return token
-        }
-
-        internal func remove_ViewChangingImpl(_ token: EventRegistrationToken) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ViewChanging(pThis, token))
-            }
-        }
-
-        internal func add_ViewChangedImpl(_ handler: EventHandler<WinUI.ScrollViewerViewChangedEventArgs?>?) throws -> EventRegistrationToken {
-            var token: EventRegistrationToken = .init()
-            let handlerWrapper = WinUI.__x_ABI_C__FIEventHandler_1___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollViewerViewChangedEventArgsWrapper(handler)
-            let _handler = try! handlerWrapper?.toABI { $0 }
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.add_ViewChanged(pThis, _handler, &token))
-            }
-            return token
-        }
-
-        internal func remove_ViewChangedImpl(_ token: EventRegistrationToken) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ViewChanged(pThis, token))
-            }
-        }
-
-        internal func add_DirectManipulationStartedImpl(_ handler: EventHandler<Any?>?) throws -> EventRegistrationToken {
-            var token: EventRegistrationToken = .init()
-            let handlerWrapper = WinUI.__x_ABI_C__FIEventHandler_1_IInspectableWrapper(handler)
-            let _handler = try! handlerWrapper?.toABI { $0 }
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.add_DirectManipulationStarted(pThis, _handler, &token))
-            }
-            return token
-        }
-
-        internal func remove_DirectManipulationStartedImpl(_ token: EventRegistrationToken) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_DirectManipulationStarted(pThis, token))
-            }
-        }
-
-        internal func add_DirectManipulationCompletedImpl(_ handler: EventHandler<Any?>?) throws -> EventRegistrationToken {
-            var token: EventRegistrationToken = .init()
-            let handlerWrapper = WinUI.__x_ABI_C__FIEventHandler_1_IInspectableWrapper(handler)
-            let _handler = try! handlerWrapper?.toABI { $0 }
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.add_DirectManipulationCompleted(pThis, _handler, &token))
-            }
-            return token
-        }
-
-        internal func remove_DirectManipulationCompletedImpl(_ token: EventRegistrationToken) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_DirectManipulationCompleted(pThis, token))
-            }
-        }
-
-        internal func ScrollToHorizontalOffsetImpl(_ offset: Double) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.ScrollToHorizontalOffset(pThis, offset))
-            }
-        }
-
-        internal func ScrollToVerticalOffsetImpl(_ offset: Double) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.ScrollToVerticalOffset(pThis, offset))
-            }
-        }
-
-        internal func ZoomToFactorImpl(_ factor: Float) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.ZoomToFactor(pThis, factor))
-            }
-        }
-
-        internal func ChangeViewImpl(_ horizontalOffset: Double?, _ verticalOffset: Double?, _ zoomFactor: Float?) throws -> Bool {
-            var result: boolean = 0
-            let horizontalOffsetWrapper = WinUI.__x_ABI_C__FIReference_1_doubleWrapper(horizontalOffset)
-            let _horizontalOffset = try! horizontalOffsetWrapper?.toABI { $0 }
-            let verticalOffsetWrapper = WinUI.__x_ABI_C__FIReference_1_doubleWrapper(verticalOffset)
-            let _verticalOffset = try! verticalOffsetWrapper?.toABI { $0 }
-            let zoomFactorWrapper = WinUI.__x_ABI_C__FIReference_1_floatWrapper(zoomFactor)
-            let _zoomFactor = try! zoomFactorWrapper?.toABI { $0 }
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.ChangeView(pThis, _horizontalOffset, _verticalOffset, _zoomFactor, &result))
-            }
-            return .init(from: result)
-        }
-
-        internal func ChangeViewWithOptionalAnimationImpl(_ horizontalOffset: Double?, _ verticalOffset: Double?, _ zoomFactor: Float?, _ disableAnimation: Bool) throws -> Bool {
-            var result: boolean = 0
-            let horizontalOffsetWrapper = WinUI.__x_ABI_C__FIReference_1_doubleWrapper(horizontalOffset)
-            let _horizontalOffset = try! horizontalOffsetWrapper?.toABI { $0 }
-            let verticalOffsetWrapper = WinUI.__x_ABI_C__FIReference_1_doubleWrapper(verticalOffset)
-            let _verticalOffset = try! verticalOffsetWrapper?.toABI { $0 }
-            let zoomFactorWrapper = WinUI.__x_ABI_C__FIReference_1_floatWrapper(zoomFactor)
-            let _zoomFactor = try! zoomFactorWrapper?.toABI { $0 }
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.ChangeViewWithOptionalAnimation(pThis, _horizontalOffset, _verticalOffset, _zoomFactor, .init(from: disableAnimation), &result))
-            }
-            return .init(from: result)
-        }
-
-        internal func InvalidateScrollInfoImpl() throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.InvalidateScrollInfo(pThis))
-            }
-        }
-
-        internal func get_IsDeferredScrollingEnabledImpl() throws -> Bool {
-            var value: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsDeferredScrollingEnabled(pThis, &value))
-            }
-            return .init(from: value)
-        }
-
-        internal func put_IsDeferredScrollingEnabledImpl(_ value: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsDeferredScrollingEnabled(pThis, .init(from: value)))
-            }
-        }
-
-        internal func get_BringIntoViewOnFocusChangeImpl() throws -> Bool {
-            var value: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_BringIntoViewOnFocusChange(pThis, &value))
-            }
-            return .init(from: value)
-        }
-
-        internal func put_BringIntoViewOnFocusChangeImpl(_ value: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.put_BringIntoViewOnFocusChange(pThis, .init(from: value)))
-            }
-        }
-
-    }
-
-    public class IScrollViewerStatics: WindowsFoundation.IInspectable {
-        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics }
-
-        internal func get_HorizontalSnapPointsAlignmentPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_HorizontalSnapPointsAlignmentProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_VerticalSnapPointsAlignmentPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_VerticalSnapPointsAlignmentProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_HorizontalSnapPointsTypePropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_HorizontalSnapPointsTypeProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_VerticalSnapPointsTypePropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_VerticalSnapPointsTypeProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_ZoomSnapPointsTypePropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ZoomSnapPointsTypeProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_HorizontalOffsetPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_HorizontalOffsetProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_ViewportWidthPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ViewportWidthProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_ScrollableWidthPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ScrollableWidthProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_ComputedHorizontalScrollBarVisibilityPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ComputedHorizontalScrollBarVisibilityProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_ExtentWidthPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExtentWidthProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_VerticalOffsetPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_VerticalOffsetProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_ViewportHeightPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ViewportHeightProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_ScrollableHeightPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ScrollableHeightProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_ComputedVerticalScrollBarVisibilityPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ComputedVerticalScrollBarVisibilityProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_ExtentHeightPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExtentHeightProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_MinZoomFactorPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MinZoomFactorProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_MaxZoomFactorPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MaxZoomFactorProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_ZoomFactorPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ZoomFactorProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_ZoomSnapPointsPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ZoomSnapPointsProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_TopLeftHeaderPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TopLeftHeaderProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_LeftHeaderPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_LeftHeaderProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_TopHeaderPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TopHeaderProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_ReduceViewportForCoreInputViewOcclusionsPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ReduceViewportForCoreInputViewOcclusionsProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_HorizontalAnchorRatioPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_HorizontalAnchorRatioProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_VerticalAnchorRatioPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_VerticalAnchorRatioProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_HorizontalScrollBarVisibilityPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_HorizontalScrollBarVisibilityProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetHorizontalScrollBarVisibilityImpl(_ element: WinUI.DependencyObject?) throws -> WinUI.ScrollBarVisibility {
-            var result: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollBarVisibility = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetHorizontalScrollBarVisibility(pThis, RawPointer(element), &result))
-            }
-            return result
-        }
-
-        internal func SetHorizontalScrollBarVisibilityImpl(_ element: WinUI.DependencyObject?, _ horizontalScrollBarVisibility: WinUI.ScrollBarVisibility) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetHorizontalScrollBarVisibility(pThis, RawPointer(element), horizontalScrollBarVisibility))
-            }
-        }
-
-        internal func get_VerticalScrollBarVisibilityPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_VerticalScrollBarVisibilityProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetVerticalScrollBarVisibilityImpl(_ element: WinUI.DependencyObject?) throws -> WinUI.ScrollBarVisibility {
-            var result: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollBarVisibility = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetVerticalScrollBarVisibility(pThis, RawPointer(element), &result))
-            }
-            return result
-        }
-
-        internal func SetVerticalScrollBarVisibilityImpl(_ element: WinUI.DependencyObject?, _ verticalScrollBarVisibility: WinUI.ScrollBarVisibility) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetVerticalScrollBarVisibility(pThis, RawPointer(element), verticalScrollBarVisibility))
-            }
-        }
-
-        internal func get_IsHorizontalRailEnabledPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsHorizontalRailEnabledProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetIsHorizontalRailEnabledImpl(_ element: WinUI.DependencyObject?) throws -> Bool {
-            var result: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetIsHorizontalRailEnabled(pThis, RawPointer(element), &result))
-            }
-            return .init(from: result)
-        }
-
-        internal func SetIsHorizontalRailEnabledImpl(_ element: WinUI.DependencyObject?, _ isHorizontalRailEnabled: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetIsHorizontalRailEnabled(pThis, RawPointer(element), .init(from: isHorizontalRailEnabled)))
-            }
-        }
-
-        internal func get_IsVerticalRailEnabledPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsVerticalRailEnabledProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetIsVerticalRailEnabledImpl(_ element: WinUI.DependencyObject?) throws -> Bool {
-            var result: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetIsVerticalRailEnabled(pThis, RawPointer(element), &result))
-            }
-            return .init(from: result)
-        }
-
-        internal func SetIsVerticalRailEnabledImpl(_ element: WinUI.DependencyObject?, _ isVerticalRailEnabled: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetIsVerticalRailEnabled(pThis, RawPointer(element), .init(from: isVerticalRailEnabled)))
-            }
-        }
-
-        internal func get_IsHorizontalScrollChainingEnabledPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsHorizontalScrollChainingEnabledProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetIsHorizontalScrollChainingEnabledImpl(_ element: WinUI.DependencyObject?) throws -> Bool {
-            var result: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetIsHorizontalScrollChainingEnabled(pThis, RawPointer(element), &result))
-            }
-            return .init(from: result)
-        }
-
-        internal func SetIsHorizontalScrollChainingEnabledImpl(_ element: WinUI.DependencyObject?, _ isHorizontalScrollChainingEnabled: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetIsHorizontalScrollChainingEnabled(pThis, RawPointer(element), .init(from: isHorizontalScrollChainingEnabled)))
-            }
-        }
-
-        internal func get_IsVerticalScrollChainingEnabledPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsVerticalScrollChainingEnabledProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetIsVerticalScrollChainingEnabledImpl(_ element: WinUI.DependencyObject?) throws -> Bool {
-            var result: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetIsVerticalScrollChainingEnabled(pThis, RawPointer(element), &result))
-            }
-            return .init(from: result)
-        }
-
-        internal func SetIsVerticalScrollChainingEnabledImpl(_ element: WinUI.DependencyObject?, _ isVerticalScrollChainingEnabled: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetIsVerticalScrollChainingEnabled(pThis, RawPointer(element), .init(from: isVerticalScrollChainingEnabled)))
-            }
-        }
-
-        internal func get_IsZoomChainingEnabledPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsZoomChainingEnabledProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetIsZoomChainingEnabledImpl(_ element: WinUI.DependencyObject?) throws -> Bool {
-            var result: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetIsZoomChainingEnabled(pThis, RawPointer(element), &result))
-            }
-            return .init(from: result)
-        }
-
-        internal func SetIsZoomChainingEnabledImpl(_ element: WinUI.DependencyObject?, _ isZoomChainingEnabled: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetIsZoomChainingEnabled(pThis, RawPointer(element), .init(from: isZoomChainingEnabled)))
-            }
-        }
-
-        internal func get_IsScrollInertiaEnabledPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsScrollInertiaEnabledProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetIsScrollInertiaEnabledImpl(_ element: WinUI.DependencyObject?) throws -> Bool {
-            var result: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetIsScrollInertiaEnabled(pThis, RawPointer(element), &result))
-            }
-            return .init(from: result)
-        }
-
-        internal func SetIsScrollInertiaEnabledImpl(_ element: WinUI.DependencyObject?, _ isScrollInertiaEnabled: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetIsScrollInertiaEnabled(pThis, RawPointer(element), .init(from: isScrollInertiaEnabled)))
-            }
-        }
-
-        internal func get_IsZoomInertiaEnabledPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsZoomInertiaEnabledProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetIsZoomInertiaEnabledImpl(_ element: WinUI.DependencyObject?) throws -> Bool {
-            var result: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetIsZoomInertiaEnabled(pThis, RawPointer(element), &result))
-            }
-            return .init(from: result)
-        }
-
-        internal func SetIsZoomInertiaEnabledImpl(_ element: WinUI.DependencyObject?, _ isZoomInertiaEnabled: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetIsZoomInertiaEnabled(pThis, RawPointer(element), .init(from: isZoomInertiaEnabled)))
-            }
-        }
-
-        internal func get_HorizontalScrollModePropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_HorizontalScrollModeProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetHorizontalScrollModeImpl(_ element: WinUI.DependencyObject?) throws -> WinUI.ScrollMode {
-            var result: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollMode = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetHorizontalScrollMode(pThis, RawPointer(element), &result))
-            }
-            return result
-        }
-
-        internal func SetHorizontalScrollModeImpl(_ element: WinUI.DependencyObject?, _ horizontalScrollMode: WinUI.ScrollMode) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetHorizontalScrollMode(pThis, RawPointer(element), horizontalScrollMode))
-            }
-        }
-
-        internal func get_VerticalScrollModePropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_VerticalScrollModeProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetVerticalScrollModeImpl(_ element: WinUI.DependencyObject?) throws -> WinUI.ScrollMode {
-            var result: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollMode = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetVerticalScrollMode(pThis, RawPointer(element), &result))
-            }
-            return result
-        }
-
-        internal func SetVerticalScrollModeImpl(_ element: WinUI.DependencyObject?, _ verticalScrollMode: WinUI.ScrollMode) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetVerticalScrollMode(pThis, RawPointer(element), verticalScrollMode))
-            }
-        }
-
-        internal func get_ZoomModePropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ZoomModeProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetZoomModeImpl(_ element: WinUI.DependencyObject?) throws -> WinUI.ZoomMode {
-            var result: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CZoomMode = .init(0)
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetZoomMode(pThis, RawPointer(element), &result))
-            }
-            return result
-        }
-
-        internal func SetZoomModeImpl(_ element: WinUI.DependencyObject?, _ zoomMode: WinUI.ZoomMode) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetZoomMode(pThis, RawPointer(element), zoomMode))
-            }
-        }
-
-        internal func get_CanContentRenderOutsideBoundsPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_CanContentRenderOutsideBoundsProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetCanContentRenderOutsideBoundsImpl(_ element: WinUI.DependencyObject?) throws -> Bool {
-            var result: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetCanContentRenderOutsideBounds(pThis, RawPointer(element), &result))
-            }
-            return .init(from: result)
-        }
-
-        internal func SetCanContentRenderOutsideBoundsImpl(_ element: WinUI.DependencyObject?, _ canContentRenderOutsideBounds: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetCanContentRenderOutsideBounds(pThis, RawPointer(element), .init(from: canContentRenderOutsideBounds)))
-            }
-        }
-
-        internal func get_IsDeferredScrollingEnabledPropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsDeferredScrollingEnabledProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetIsDeferredScrollingEnabledImpl(_ element: WinUI.DependencyObject?) throws -> Bool {
-            var result: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetIsDeferredScrollingEnabled(pThis, RawPointer(element), &result))
-            }
-            return .init(from: result)
-        }
-
-        internal func SetIsDeferredScrollingEnabledImpl(_ element: WinUI.DependencyObject?, _ isDeferredScrollingEnabled: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetIsDeferredScrollingEnabled(pThis, RawPointer(element), .init(from: isDeferredScrollingEnabled)))
-            }
-        }
-
-        internal func get_BringIntoViewOnFocusChangePropertyImpl() throws -> WinUI.DependencyProperty? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_BringIntoViewOnFocusChangeProperty(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func GetBringIntoViewOnFocusChangeImpl(_ element: WinUI.DependencyObject?) throws -> Bool {
-            var result: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.GetBringIntoViewOnFocusChange(pThis, RawPointer(element), &result))
-            }
-            return .init(from: result)
-        }
-
-        internal func SetBringIntoViewOnFocusChangeImpl(_ element: WinUI.DependencyObject?, _ bringIntoViewOnFocusChange: Bool) throws {
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerStatics.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.SetBringIntoViewOnFocusChange(pThis, RawPointer(element), .init(from: bringIntoViewOnFocusChange)))
-            }
-        }
-
-    }
-
-    public class IScrollViewerView: WindowsFoundation.IInspectable {
-        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerView }
-
-        internal func get_HorizontalOffsetImpl() throws -> Double {
-            var value: DOUBLE = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerView.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_HorizontalOffset(pThis, &value))
-            }
-            return value
-        }
-
-        internal func get_VerticalOffsetImpl() throws -> Double {
-            var value: DOUBLE = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerView.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_VerticalOffset(pThis, &value))
-            }
-            return value
-        }
-
-        internal func get_ZoomFactorImpl() throws -> Float {
-            var value: FLOAT = 0.0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerView.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ZoomFactor(pThis, &value))
-            }
-            return value
-        }
-
-    }
-
-    public class IScrollViewerViewChangedEventArgs: WindowsFoundation.IInspectable {
-        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerViewChangedEventArgs }
-
-        internal func get_IsIntermediateImpl() throws -> Bool {
-            var value: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerViewChangedEventArgs.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsIntermediate(pThis, &value))
-            }
-            return .init(from: value)
-        }
-
-    }
-
-    public class IScrollViewerViewChangingEventArgs: WindowsFoundation.IInspectable {
-        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerViewChangingEventArgs }
-
-        internal func get_NextViewImpl() throws -> WinUI.ScrollViewerView? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerViewChangingEventArgs.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_NextView(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_FinalViewImpl() throws -> WinUI.ScrollViewerView? {
-            let (value) = try ComPtrs.initialize { valueAbi in
-                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerViewChangingEventArgs.self) { pThis in
-                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_FinalView(pThis, &valueAbi))
-                }
-            }
-            return .from(abi: value)
-        }
-
-        internal func get_IsInertialImpl() throws -> Bool {
-            var value: boolean = 0
-            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerViewChangingEventArgs.self) { pThis in
-                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsInertial(pThis, &value))
-            }
-            return .init(from: value)
         }
 
     }

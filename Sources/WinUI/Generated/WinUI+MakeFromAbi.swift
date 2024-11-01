@@ -14,6 +14,11 @@ fileprivate func makeIElementFactoryFrom(abi: WindowsFoundation.IInspectable) ->
     return __IMPL_Microsoft_UI_Xaml.IElementFactoryBridge.from(abi: RawPointer(swiftAbi))!
 }
 
+fileprivate func makeICommandBarElementFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    let swiftAbi: __ABI_Microsoft_UI_Xaml_Controls.ICommandBarElement = try! abi.QueryInterface()
+    return __IMPL_Microsoft_UI_Xaml_Controls.ICommandBarElementBridge.from(abi: RawPointer(swiftAbi))!
+}
+
 fileprivate func makeIInsertionPanelFrom(abi: WindowsFoundation.IInspectable) -> Any {
     let swiftAbi: __ABI_Microsoft_UI_Xaml_Controls.IInsertionPanel = try! abi.QueryInterface()
     return __IMPL_Microsoft_UI_Xaml_Controls.IInsertionPanelBridge.from(abi: RawPointer(swiftAbi))!
@@ -360,12 +365,20 @@ fileprivate func makeIRawElementProviderSimpleFrom(abi: WindowsFoundation.IInspe
     return IRawElementProviderSimple(fromAbi: abi)
 }
 
-fileprivate func makeAnchorRequestedEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
-    return AnchorRequestedEventArgs(fromAbi: abi)
-}
-
 fileprivate func makeAppBarFrom(abi: WindowsFoundation.IInspectable) -> Any {
     return AppBar(fromAbi: abi)
+}
+
+fileprivate func makeAppBarButtonFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return AppBarButton(fromAbi: abi)
+}
+
+fileprivate func makeAppBarSeparatorFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return AppBarSeparator(fromAbi: abi)
+}
+
+fileprivate func makeAppBarToggleButtonFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return AppBarToggleButton(fromAbi: abi)
 }
 
 fileprivate func makeAutoSuggestBoxFrom(abi: WindowsFoundation.IInspectable) -> Any {
@@ -432,6 +445,10 @@ fileprivate func makeComboBoxTextSubmittedEventArgsFrom(abi: WindowsFoundation.I
     return ComboBoxTextSubmittedEventArgs(fromAbi: abi)
 }
 
+fileprivate func makeCommandBarFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return CommandBar(fromAbi: abi)
+}
+
 fileprivate func makeContainerContentChangingEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
     return ContainerContentChangingEventArgs(fromAbi: abi)
 }
@@ -494,6 +511,10 @@ fileprivate func makeDragItemsCompletedEventArgsFrom(abi: WindowsFoundation.IIns
 
 fileprivate func makeDragItemsStartingEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
     return DragItemsStartingEventArgs(fromAbi: abi)
+}
+
+fileprivate func makeDynamicOverflowItemsChangingEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return DynamicOverflowItemsChangingEventArgs(fromAbi: abi)
 }
 
 fileprivate func makeFlipViewFrom(abi: WindowsFoundation.IInspectable) -> Any {
@@ -836,22 +857,6 @@ fileprivate func makeScrollViewFrom(abi: WindowsFoundation.IInspectable) -> Any 
     return ScrollView(fromAbi: abi)
 }
 
-fileprivate func makeScrollViewerFrom(abi: WindowsFoundation.IInspectable) -> Any {
-    return ScrollViewer(fromAbi: abi)
-}
-
-fileprivate func makeScrollViewerViewFrom(abi: WindowsFoundation.IInspectable) -> Any {
-    return ScrollViewerView(fromAbi: abi)
-}
-
-fileprivate func makeScrollViewerViewChangedEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
-    return ScrollViewerViewChangedEventArgs(fromAbi: abi)
-}
-
-fileprivate func makeScrollViewerViewChangingEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
-    return ScrollViewerViewChangingEventArgs(fromAbi: abi)
-}
-
 fileprivate func makeScrollingAnchorRequestedEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
     return ScrollingAnchorRequestedEventArgs(fromAbi: abi)
 }
@@ -1076,8 +1081,16 @@ fileprivate func makeXamlControlsResourcesFrom(abi: WindowsFoundation.IInspectab
     return XamlControlsResources(fromAbi: abi)
 }
 
+fileprivate func makeAppBarButtonTemplateSettingsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return AppBarButtonTemplateSettings(fromAbi: abi)
+}
+
 fileprivate func makeAppBarTemplateSettingsFrom(abi: WindowsFoundation.IInspectable) -> Any {
     return AppBarTemplateSettings(fromAbi: abi)
+}
+
+fileprivate func makeAppBarToggleButtonTemplateSettingsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return AppBarToggleButtonTemplateSettings(fromAbi: abi)
 }
 
 fileprivate func makeButtonBaseFrom(abi: WindowsFoundation.IInspectable) -> Any {
@@ -1086,6 +1099,10 @@ fileprivate func makeButtonBaseFrom(abi: WindowsFoundation.IInspectable) -> Any 
 
 fileprivate func makeComboBoxTemplateSettingsFrom(abi: WindowsFoundation.IInspectable) -> Any {
     return ComboBoxTemplateSettings(fromAbi: abi)
+}
+
+fileprivate func makeCommandBarTemplateSettingsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return CommandBarTemplateSettings(fromAbi: abi)
 }
 
 fileprivate func makeFlyoutBaseFrom(abi: WindowsFoundation.IInspectable) -> Any {
@@ -1242,38 +1259,6 @@ fileprivate func makeTextHighlighterFrom(abi: WindowsFoundation.IInspectable) ->
 
 fileprivate func makeTextPointerFrom(abi: WindowsFoundation.IInspectable) -> Any {
     return TextPointer(fromAbi: abi)
-}
-
-fileprivate func makeDesktopWindowXamlSourceFrom(abi: WindowsFoundation.IInspectable) -> Any {
-    return DesktopWindowXamlSource(fromAbi: abi)
-}
-
-fileprivate func makeDesktopWindowXamlSourceGotFocusEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
-    return DesktopWindowXamlSourceGotFocusEventArgs(fromAbi: abi)
-}
-
-fileprivate func makeDesktopWindowXamlSourceTakeFocusRequestedEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
-    return DesktopWindowXamlSourceTakeFocusRequestedEventArgs(fromAbi: abi)
-}
-
-fileprivate func makeElementCompositionPreviewFrom(abi: WindowsFoundation.IInspectable) -> Any {
-    return ElementCompositionPreview(fromAbi: abi)
-}
-
-fileprivate func makeWindowsXamlManagerFrom(abi: WindowsFoundation.IInspectable) -> Any {
-    return WindowsXamlManager(fromAbi: abi)
-}
-
-fileprivate func makeXamlShutdownCompletedOnThreadEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
-    return XamlShutdownCompletedOnThreadEventArgs(fromAbi: abi)
-}
-
-fileprivate func makeXamlSourceFocusNavigationRequestFrom(abi: WindowsFoundation.IInspectable) -> Any {
-    return XamlSourceFocusNavigationRequest(fromAbi: abi)
-}
-
-fileprivate func makeXamlSourceFocusNavigationResultFrom(abi: WindowsFoundation.IInspectable) -> Any {
-    return XamlSourceFocusNavigationResult(fromAbi: abi)
 }
 
 fileprivate func makeAccessKeyDisplayDismissedEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
@@ -2014,6 +1999,7 @@ public class __MakeFromAbi: MakeFromAbi {
         switch typeName {
             case "IDataTemplateExtension": return makeIDataTemplateExtensionFrom(abi: abi)
             case "IElementFactory": return makeIElementFactoryFrom(abi: abi)
+            case "ICommandBarElement": return makeICommandBarElementFrom(abi: abi)
             case "IInsertionPanel": return makeIInsertionPanelFrom(abi: abi)
             case "IItemContainerMapping": return makeIItemContainerMappingFrom(abi: abi)
             case "IKeyIndexMapping": return makeIKeyIndexMappingFrom(abi: abi)
@@ -2095,8 +2081,10 @@ public class __MakeFromAbi: MakeFromAbi {
             case "AutomationPeer": return makeAutomationPeerFrom(abi: abi)
             case "AutomationPeerAnnotation": return makeAutomationPeerAnnotationFrom(abi: abi)
             case "IRawElementProviderSimple": return makeIRawElementProviderSimpleFrom(abi: abi)
-            case "AnchorRequestedEventArgs": return makeAnchorRequestedEventArgsFrom(abi: abi)
             case "AppBar": return makeAppBarFrom(abi: abi)
+            case "AppBarButton": return makeAppBarButtonFrom(abi: abi)
+            case "AppBarSeparator": return makeAppBarSeparatorFrom(abi: abi)
+            case "AppBarToggleButton": return makeAppBarToggleButtonFrom(abi: abi)
             case "AutoSuggestBox": return makeAutoSuggestBoxFrom(abi: abi)
             case "AutoSuggestBoxQuerySubmittedEventArgs": return makeAutoSuggestBoxQuerySubmittedEventArgsFrom(abi: abi)
             case "AutoSuggestBoxSuggestionChosenEventArgs": return makeAutoSuggestBoxSuggestionChosenEventArgsFrom(abi: abi)
@@ -2113,6 +2101,7 @@ public class __MakeFromAbi: MakeFromAbi {
             case "ColumnDefinitionCollection": return makeColumnDefinitionCollectionFrom(abi: abi)
             case "ComboBox": return makeComboBoxFrom(abi: abi)
             case "ComboBoxTextSubmittedEventArgs": return makeComboBoxTextSubmittedEventArgsFrom(abi: abi)
+            case "CommandBar": return makeCommandBarFrom(abi: abi)
             case "ContainerContentChangingEventArgs": return makeContainerContentChangingEventArgsFrom(abi: abi)
             case "ContentControl": return makeContentControlFrom(abi: abi)
             case "ContentDialog": return makeContentDialogFrom(abi: abi)
@@ -2129,6 +2118,7 @@ public class __MakeFromAbi: MakeFromAbi {
             case "DataTemplateSelector": return makeDataTemplateSelectorFrom(abi: abi)
             case "DragItemsCompletedEventArgs": return makeDragItemsCompletedEventArgsFrom(abi: abi)
             case "DragItemsStartingEventArgs": return makeDragItemsStartingEventArgsFrom(abi: abi)
+            case "DynamicOverflowItemsChangingEventArgs": return makeDynamicOverflowItemsChangingEventArgsFrom(abi: abi)
             case "FlipView": return makeFlipViewFrom(abi: abi)
             case "FlipViewItem": return makeFlipViewItemFrom(abi: abi)
             case "Flyout": return makeFlyoutFrom(abi: abi)
@@ -2214,10 +2204,6 @@ public class __MakeFromAbi: MakeFromAbi {
             case "RowDefinition": return makeRowDefinitionFrom(abi: abi)
             case "RowDefinitionCollection": return makeRowDefinitionCollectionFrom(abi: abi)
             case "ScrollView": return makeScrollViewFrom(abi: abi)
-            case "ScrollViewer": return makeScrollViewerFrom(abi: abi)
-            case "ScrollViewerView": return makeScrollViewerViewFrom(abi: abi)
-            case "ScrollViewerViewChangedEventArgs": return makeScrollViewerViewChangedEventArgsFrom(abi: abi)
-            case "ScrollViewerViewChangingEventArgs": return makeScrollViewerViewChangingEventArgsFrom(abi: abi)
             case "ScrollingAnchorRequestedEventArgs": return makeScrollingAnchorRequestedEventArgsFrom(abi: abi)
             case "ScrollingBringingIntoViewEventArgs": return makeScrollingBringingIntoViewEventArgsFrom(abi: abi)
             case "ScrollingScrollAnimationStartingEventArgs": return makeScrollingScrollAnimationStartingEventArgsFrom(abi: abi)
@@ -2274,9 +2260,12 @@ public class __MakeFromAbi: MakeFromAbi {
             case "VirtualizingLayout": return makeVirtualizingLayoutFrom(abi: abi)
             case "VirtualizingLayoutContext": return makeVirtualizingLayoutContextFrom(abi: abi)
             case "XamlControlsResources": return makeXamlControlsResourcesFrom(abi: abi)
+            case "AppBarButtonTemplateSettings": return makeAppBarButtonTemplateSettingsFrom(abi: abi)
             case "AppBarTemplateSettings": return makeAppBarTemplateSettingsFrom(abi: abi)
+            case "AppBarToggleButtonTemplateSettings": return makeAppBarToggleButtonTemplateSettingsFrom(abi: abi)
             case "ButtonBase": return makeButtonBaseFrom(abi: abi)
             case "ComboBoxTemplateSettings": return makeComboBoxTemplateSettingsFrom(abi: abi)
+            case "CommandBarTemplateSettings": return makeCommandBarTemplateSettingsFrom(abi: abi)
             case "FlyoutBase": return makeFlyoutBaseFrom(abi: abi)
             case "FlyoutBaseClosingEventArgs": return makeFlyoutBaseClosingEventArgsFrom(abi: abi)
             case "FlyoutShowOptions": return makeFlyoutShowOptionsFrom(abi: abi)
@@ -2316,14 +2305,6 @@ public class __MakeFromAbi: MakeFromAbi {
             case "TextElement": return makeTextElementFrom(abi: abi)
             case "TextHighlighter": return makeTextHighlighterFrom(abi: abi)
             case "TextPointer": return makeTextPointerFrom(abi: abi)
-            case "DesktopWindowXamlSource": return makeDesktopWindowXamlSourceFrom(abi: abi)
-            case "DesktopWindowXamlSourceGotFocusEventArgs": return makeDesktopWindowXamlSourceGotFocusEventArgsFrom(abi: abi)
-            case "DesktopWindowXamlSourceTakeFocusRequestedEventArgs": return makeDesktopWindowXamlSourceTakeFocusRequestedEventArgsFrom(abi: abi)
-            case "ElementCompositionPreview": return makeElementCompositionPreviewFrom(abi: abi)
-            case "WindowsXamlManager": return makeWindowsXamlManagerFrom(abi: abi)
-            case "XamlShutdownCompletedOnThreadEventArgs": return makeXamlShutdownCompletedOnThreadEventArgsFrom(abi: abi)
-            case "XamlSourceFocusNavigationRequest": return makeXamlSourceFocusNavigationRequestFrom(abi: abi)
-            case "XamlSourceFocusNavigationResult": return makeXamlSourceFocusNavigationResultFrom(abi: abi)
             case "AccessKeyDisplayDismissedEventArgs": return makeAccessKeyDisplayDismissedEventArgsFrom(abi: abi)
             case "AccessKeyDisplayRequestedEventArgs": return makeAccessKeyDisplayRequestedEventArgsFrom(abi: abi)
             case "AccessKeyInvokedEventArgs": return makeAccessKeyInvokedEventArgsFrom(abi: abi)

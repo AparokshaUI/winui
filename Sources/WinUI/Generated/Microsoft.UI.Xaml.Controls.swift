@@ -20,6 +20,14 @@ public typealias CharacterCasing = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CChara
 public typealias ClickMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CClickMode
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.comboboxselectionchangedtrigger)
 public typealias ComboBoxSelectionChangedTrigger = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CComboBoxSelectionChangedTrigger
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbardefaultlabelposition)
+public typealias CommandBarDefaultLabelPosition = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarDefaultLabelPosition
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbardynamicoverflowaction)
+public typealias CommandBarDynamicOverflowAction = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarDynamicOverflowAction
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbarlabelposition)
+public typealias CommandBarLabelPosition = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarLabelPosition
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbaroverflowbuttonvisibility)
+public typealias CommandBarOverflowButtonVisibility = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarOverflowButtonVisibility
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.contentdialogbutton)
 public typealias ContentDialogButton = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CContentDialogButton
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.contentdialogplacement)
@@ -66,12 +74,8 @@ public typealias PasswordRevealMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPa
 public typealias PipsPagerButtonVisibility = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPipsPagerButtonVisibility
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.requirespointer)
 public typealias RequiresPointer = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CRequiresPointer
-/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollbarvisibility)
-public typealias ScrollBarVisibility = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollBarVisibility
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollintoviewalignment)
 public typealias ScrollIntoViewAlignment = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollIntoViewAlignment
-/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollmode)
-public typealias ScrollMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollMode
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollinganimationmode)
 public typealias ScrollingAnimationMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollingAnimationMode
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollingchainmode)
@@ -94,8 +98,6 @@ public typealias ScrollingSnapPointsMode = __x_ABI_CMicrosoft_CUI_CXaml_CControl
 public typealias ScrollingZoomMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollingZoomMode
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.selectionmode)
 public typealias SelectionMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSelectionMode
-/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.snappointstype)
-public typealias SnapPointsType = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSnapPointsType
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.splitviewdisplaymode)
 public typealias SplitViewDisplayMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSplitViewDisplayMode
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.splitviewpaneplacement)
@@ -114,48 +116,6 @@ public typealias TreeViewSelectionMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_
 public typealias UniformGridLayoutItemsJustification = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CUniformGridLayoutItemsJustification
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.uniformgridlayoutitemsstretch)
 public typealias UniformGridLayoutItemsStretch = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CUniformGridLayoutItemsStretch
-/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.zoommode)
-public typealias ZoomMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CZoomMode
-/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.anchorrequestedeventargs)
-public final class AnchorRequestedEventArgs : WinRTClass {
-    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IAnchorRequestedEventArgs
-    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAnchorRequestedEventArgs
-    private lazy var _default: SwiftABI! = getInterfaceForCaching()
-    @_spi(WinRTInternal)
-    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
-        if T.self == CABI.self {
-            return RawPointer(_default)
-        }
-        return super._getABI()
-    }
-
-    @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAnchorRequestedEventArgs>?) -> AnchorRequestedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
-    public init(fromAbi: WindowsFoundation.IInspectable) {
-        super.init(fromAbi)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.anchorrequestedeventargs.anchor)
-    public var anchor : WinUI.UIElement! {
-        get { try! _default.get_AnchorImpl() }
-        set { try! _default.put_AnchorImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.anchorrequestedeventargs.anchorcandidates)
-    public var anchorCandidates : WindowsFoundation.AnyIVector<WinUI.UIElement?>! {
-        get { try! _default.get_AnchorCandidatesImpl() }
-    }
-
-    deinit {
-        _default = nil
-    }
-}
-
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbar)
 open class AppBar : WinUI.ContentControl {
     private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IAppBar
@@ -340,6 +300,383 @@ open class AppBar : WinUI.ContentControl {
     deinit {
         _default = nil
         _IAppBarOverrides = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton)
+open class AppBarButton : WinUI.Button, ICommandBarElement {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IAppBarButton
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButton
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override open func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButton>?) -> AppBarButton? {
+        guard let abi = abi else { return nil }
+        return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi: fromAbi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init<Composable: ComposableImpl>(
+        composing: Composable.Type,
+        _ createCallback: (UnsealedWinRTClassWrapper<Composable>?, inout WindowsFoundation.IInspectable?) -> Composable.Default.SwiftABI)
+    {
+        super.init(composing: composing, createCallback)
+    }
+    override open func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
+        return super.queryInterface(iid)
+    }
+    private static var _IAppBarButtonFactory : __ABI_Microsoft_UI_Xaml_Controls.IAppBarButtonFactory =  try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.AppBarButton"))
+
+    override public init() {
+        super.init(composing: Self.Composable.self) { baseInterface, innerInterface in 
+            try! Self._IAppBarButtonFactory.CreateInstanceImpl(baseInterface, &innerInterface)
+        }
+    }
+
+    private static let _IAppBarButtonStatics: __ABI_Microsoft_UI_Xaml_Controls.IAppBarButtonStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.AppBarButton"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.dynamicoverfloworderproperty)
+    public class var dynamicOverflowOrderProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarButtonStatics.get_DynamicOverflowOrderPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.iconproperty)
+    public class var iconProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarButtonStatics.get_IconPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.iscompactproperty)
+    public class var isCompactProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarButtonStatics.get_IsCompactPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.isinoverflowproperty)
+    public class var isInOverflowProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarButtonStatics.get_IsInOverflowPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.keyboardacceleratortextoverrideproperty)
+    public class var keyboardAcceleratorTextOverrideProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarButtonStatics.get_KeyboardAcceleratorTextOverridePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.labelpositionproperty)
+    public class var labelPositionProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarButtonStatics.get_LabelPositionPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.labelproperty)
+    public class var labelProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarButtonStatics.get_LabelPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.icon)
+    public var icon : IconElement! {
+        get { try! _default.get_IconImpl() }
+        set { try! _default.put_IconImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.keyboardacceleratortextoverride)
+    public var keyboardAcceleratorTextOverride : String {
+        get { try! _default.get_KeyboardAcceleratorTextOverrideImpl() }
+        set { try! _default.put_KeyboardAcceleratorTextOverrideImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.label)
+    public var label : String {
+        get { try! _default.get_LabelImpl() }
+        set { try! _default.put_LabelImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.labelposition)
+    public var labelPosition : CommandBarLabelPosition {
+        get { try! _default.get_LabelPositionImpl() }
+        set { try! _default.put_LabelPositionImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.templatesettings)
+    public var templateSettings : WinUI.AppBarButtonTemplateSettings! {
+        get { try! _default.get_TemplateSettingsImpl() }
+    }
+
+    private lazy var _ICommandBarElement: __ABI_Microsoft_UI_Xaml_Controls.ICommandBarElement! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.dynamicoverfloworder)
+    public var dynamicOverflowOrder : Int32 {
+        get { try! _ICommandBarElement.get_DynamicOverflowOrderImpl() }
+        set { try! _ICommandBarElement.put_DynamicOverflowOrderImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.iscompact)
+    public var isCompact : Bool {
+        get { try! _ICommandBarElement.get_IsCompactImpl() }
+        set { try! _ICommandBarElement.put_IsCompactImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarbutton.isinoverflow)
+    public var isInOverflow : Bool {
+        get { try! _ICommandBarElement.get_IsInOverflowImpl() }
+    }
+
+    internal enum IContentControlOverrides : ComposableImpl {
+        internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIContentControlOverrides
+        internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IContentControlOverrides
+        internal typealias Class = AppBarButton
+        internal typealias SwiftProjection = WinRTClassWeakReference<Class>
+        internal enum Default : AbiInterface {
+            internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarButton
+            internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IAppBarButton
+        }
+    }
+    internal typealias Composable = IContentControlOverrides
+    deinit {
+        _default = nil
+        _ICommandBarElement = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarseparator)
+open class AppBarSeparator : WinUI.Control, ICommandBarElement {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IAppBarSeparator
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarSeparator
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override open func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarSeparator>?) -> AppBarSeparator? {
+        guard let abi = abi else { return nil }
+        return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi: fromAbi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init<Composable: ComposableImpl>(
+        composing: Composable.Type,
+        _ createCallback: (UnsealedWinRTClassWrapper<Composable>?, inout WindowsFoundation.IInspectable?) -> Composable.Default.SwiftABI)
+    {
+        super.init(composing: composing, createCallback)
+    }
+    override open func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
+        return super.queryInterface(iid)
+    }
+    private static var _IAppBarSeparatorFactory : __ABI_Microsoft_UI_Xaml_Controls.IAppBarSeparatorFactory =  try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.AppBarSeparator"))
+
+    override public init() {
+        super.init(composing: Self.Composable.self) { baseInterface, innerInterface in 
+            try! Self._IAppBarSeparatorFactory.CreateInstanceImpl(baseInterface, &innerInterface)
+        }
+    }
+
+    private static let _IAppBarSeparatorStatics: __ABI_Microsoft_UI_Xaml_Controls.IAppBarSeparatorStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.AppBarSeparator"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarseparator.dynamicoverfloworderproperty)
+    public class var dynamicOverflowOrderProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarSeparatorStatics.get_DynamicOverflowOrderPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarseparator.iscompactproperty)
+    public class var isCompactProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarSeparatorStatics.get_IsCompactPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarseparator.isinoverflowproperty)
+    public class var isInOverflowProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarSeparatorStatics.get_IsInOverflowPropertyImpl() }
+    }
+
+    private lazy var _ICommandBarElement: __ABI_Microsoft_UI_Xaml_Controls.ICommandBarElement! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarseparator.dynamicoverfloworder)
+    public var dynamicOverflowOrder : Int32 {
+        get { try! _ICommandBarElement.get_DynamicOverflowOrderImpl() }
+        set { try! _ICommandBarElement.put_DynamicOverflowOrderImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarseparator.iscompact)
+    public var isCompact : Bool {
+        get { try! _ICommandBarElement.get_IsCompactImpl() }
+        set { try! _ICommandBarElement.put_IsCompactImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarseparator.isinoverflow)
+    public var isInOverflow : Bool {
+        get { try! _ICommandBarElement.get_IsInOverflowImpl() }
+    }
+
+    internal enum IControlOverrides : ComposableImpl {
+        internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIControlOverrides
+        internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IControlOverrides
+        internal typealias Class = AppBarSeparator
+        internal typealias SwiftProjection = WinRTClassWeakReference<Class>
+        internal enum Default : AbiInterface {
+            internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarSeparator
+            internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IAppBarSeparator
+        }
+    }
+    internal typealias Composable = IControlOverrides
+    deinit {
+        _default = nil
+        _ICommandBarElement = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton)
+open class AppBarToggleButton : WinUI.ToggleButton, ICommandBarElement {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IAppBarToggleButton
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButton
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override open func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButton>?) -> AppBarToggleButton? {
+        guard let abi = abi else { return nil }
+        return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi: fromAbi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init<Composable: ComposableImpl>(
+        composing: Composable.Type,
+        _ createCallback: (UnsealedWinRTClassWrapper<Composable>?, inout WindowsFoundation.IInspectable?) -> Composable.Default.SwiftABI)
+    {
+        super.init(composing: composing, createCallback)
+    }
+    override open func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
+        return super.queryInterface(iid)
+    }
+    private static var _IAppBarToggleButtonFactory : __ABI_Microsoft_UI_Xaml_Controls.IAppBarToggleButtonFactory =  try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.AppBarToggleButton"))
+
+    override public init() {
+        super.init(composing: Self.Composable.self) { baseInterface, innerInterface in 
+            try! Self._IAppBarToggleButtonFactory.CreateInstanceImpl(baseInterface, &innerInterface)
+        }
+    }
+
+    private static let _IAppBarToggleButtonStatics: __ABI_Microsoft_UI_Xaml_Controls.IAppBarToggleButtonStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.AppBarToggleButton"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.dynamicoverfloworderproperty)
+    public class var dynamicOverflowOrderProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarToggleButtonStatics.get_DynamicOverflowOrderPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.iconproperty)
+    public class var iconProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarToggleButtonStatics.get_IconPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.iscompactproperty)
+    public class var isCompactProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarToggleButtonStatics.get_IsCompactPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.isinoverflowproperty)
+    public class var isInOverflowProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarToggleButtonStatics.get_IsInOverflowPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.keyboardacceleratortextoverrideproperty)
+    public class var keyboardAcceleratorTextOverrideProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarToggleButtonStatics.get_KeyboardAcceleratorTextOverridePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.labelpositionproperty)
+    public class var labelPositionProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarToggleButtonStatics.get_LabelPositionPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.labelproperty)
+    public class var labelProperty : WinUI.DependencyProperty! {
+        get { try! _IAppBarToggleButtonStatics.get_LabelPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.icon)
+    public var icon : IconElement! {
+        get { try! _default.get_IconImpl() }
+        set { try! _default.put_IconImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.keyboardacceleratortextoverride)
+    public var keyboardAcceleratorTextOverride : String {
+        get { try! _default.get_KeyboardAcceleratorTextOverrideImpl() }
+        set { try! _default.put_KeyboardAcceleratorTextOverrideImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.label)
+    public var label : String {
+        get { try! _default.get_LabelImpl() }
+        set { try! _default.put_LabelImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.labelposition)
+    public var labelPosition : CommandBarLabelPosition {
+        get { try! _default.get_LabelPositionImpl() }
+        set { try! _default.put_LabelPositionImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.templatesettings)
+    public var templateSettings : WinUI.AppBarToggleButtonTemplateSettings! {
+        get { try! _default.get_TemplateSettingsImpl() }
+    }
+
+    private lazy var _ICommandBarElement: __ABI_Microsoft_UI_Xaml_Controls.ICommandBarElement! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.dynamicoverfloworder)
+    public var dynamicOverflowOrder : Int32 {
+        get { try! _ICommandBarElement.get_DynamicOverflowOrderImpl() }
+        set { try! _ICommandBarElement.put_DynamicOverflowOrderImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.iscompact)
+    public var isCompact : Bool {
+        get { try! _ICommandBarElement.get_IsCompactImpl() }
+        set { try! _ICommandBarElement.put_IsCompactImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbartogglebutton.isinoverflow)
+    public var isInOverflow : Bool {
+        get { try! _ICommandBarElement.get_IsInOverflowImpl() }
+    }
+
+    internal enum IToggleButtonOverrides : ComposableImpl {
+        internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIToggleButtonOverrides
+        internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls_Primitives.IToggleButtonOverrides
+        internal typealias Class = AppBarToggleButton
+        internal typealias SwiftProjection = WinRTClassWeakReference<Class>
+        internal enum Default : AbiInterface {
+            internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarToggleButton
+            internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IAppBarToggleButton
+        }
+    }
+    internal typealias Composable = IToggleButtonOverrides
+    deinit {
+        _default = nil
+        _ICommandBarElement = nil
     }
 }
 
@@ -1781,6 +2118,147 @@ public final class ComboBoxTextSubmittedEventArgs : WinRTClass {
         get { try! _default.get_TextImpl() }
     }
 
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar)
+open class CommandBar : WinUI.AppBar {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.ICommandBar
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override open func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar>?) -> CommandBar? {
+        guard let abi = abi else { return nil }
+        return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi: fromAbi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init<Composable: ComposableImpl>(
+        composing: Composable.Type,
+        _ createCallback: (UnsealedWinRTClassWrapper<Composable>?, inout WindowsFoundation.IInspectable?) -> Composable.Default.SwiftABI)
+    {
+        super.init(composing: composing, createCallback)
+    }
+    override open func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
+        return super.queryInterface(iid)
+    }
+    private static var _ICommandBarFactory : __ABI_Microsoft_UI_Xaml_Controls.ICommandBarFactory =  try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.CommandBar"))
+
+    override public init() {
+        super.init(composing: Self.Composable.self) { baseInterface, innerInterface in 
+            try! Self._ICommandBarFactory.CreateInstanceImpl(baseInterface, &innerInterface)
+        }
+    }
+
+    private static let _ICommandBarStatics: __ABI_Microsoft_UI_Xaml_Controls.ICommandBarStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.CommandBar"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar.commandbaroverflowpresenterstyleproperty)
+    public class var commandBarOverflowPresenterStyleProperty : WinUI.DependencyProperty! {
+        get { try! _ICommandBarStatics.get_CommandBarOverflowPresenterStylePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar.defaultlabelpositionproperty)
+    public class var defaultLabelPositionProperty : WinUI.DependencyProperty! {
+        get { try! _ICommandBarStatics.get_DefaultLabelPositionPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar.isdynamicoverflowenabledproperty)
+    public class var isDynamicOverflowEnabledProperty : WinUI.DependencyProperty! {
+        get { try! _ICommandBarStatics.get_IsDynamicOverflowEnabledPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar.overflowbuttonvisibilityproperty)
+    public class var overflowButtonVisibilityProperty : WinUI.DependencyProperty! {
+        get { try! _ICommandBarStatics.get_OverflowButtonVisibilityPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar.primarycommandsproperty)
+    public class var primaryCommandsProperty : WinUI.DependencyProperty! {
+        get { try! _ICommandBarStatics.get_PrimaryCommandsPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar.secondarycommandsproperty)
+    public class var secondaryCommandsProperty : WinUI.DependencyProperty! {
+        get { try! _ICommandBarStatics.get_SecondaryCommandsPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar.commandbaroverflowpresenterstyle)
+    public var commandBarOverflowPresenterStyle : WinUI.Style! {
+        get { try! _default.get_CommandBarOverflowPresenterStyleImpl() }
+        set { try! _default.put_CommandBarOverflowPresenterStyleImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar.commandbartemplatesettings)
+    public var commandBarTemplateSettings : WinUI.CommandBarTemplateSettings! {
+        get { try! _default.get_CommandBarTemplateSettingsImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar.defaultlabelposition)
+    public var defaultLabelPosition : CommandBarDefaultLabelPosition {
+        get { try! _default.get_DefaultLabelPositionImpl() }
+        set { try! _default.put_DefaultLabelPositionImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar.isdynamicoverflowenabled)
+    public var isDynamicOverflowEnabled : Bool {
+        get { try! _default.get_IsDynamicOverflowEnabledImpl() }
+        set { try! _default.put_IsDynamicOverflowEnabledImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar.overflowbuttonvisibility)
+    public var overflowButtonVisibility : CommandBarOverflowButtonVisibility {
+        get { try! _default.get_OverflowButtonVisibilityImpl() }
+        set { try! _default.put_OverflowButtonVisibilityImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar.primarycommands)
+    public var primaryCommands : WindowsFoundation.AnyIObservableVector<AnyICommandBarElement?>! {
+        get { try! _default.get_PrimaryCommandsImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar.secondarycommands)
+    public var secondaryCommands : WindowsFoundation.AnyIObservableVector<AnyICommandBarElement?>! {
+        get { try! _default.get_SecondaryCommandsImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.commandbar.dynamicoverflowitemschanging)
+    public lazy var dynamicOverflowItemsChanging : Event<TypedEventHandler<CommandBar?, DynamicOverflowItemsChangingEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_DynamicOverflowItemsChangingImpl($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_DynamicOverflowItemsChangingImpl($0)
+       }
+      )
+    }()
+
+    internal enum IAppBarOverrides : ComposableImpl {
+        internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarOverrides
+        internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IAppBarOverrides
+        internal typealias Class = CommandBar
+        internal typealias SwiftProjection = WinRTClassWeakReference<Class>
+        internal enum Default : AbiInterface {
+            internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CICommandBar
+            internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.ICommandBar
+        }
+    }
+    internal typealias Composable = IAppBarOverrides
     deinit {
         _default = nil
     }
@@ -3755,6 +4233,44 @@ public final class DragItemsStartingEventArgs : WinRTClass {
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.dragitemsstartingeventargs.items)
     public var items : WindowsFoundation.AnyIVector<Any?>! {
         get { try! _default.get_ItemsImpl() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.dynamicoverflowitemschangingeventargs)
+public final class DynamicOverflowItemsChangingEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IDynamicOverflowItemsChangingEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIDynamicOverflowItemsChangingEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIDynamicOverflowItemsChangingEventArgs>?) -> DynamicOverflowItemsChangingEventArgs? {
+        guard let abi = abi else { return nil }
+        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    override public init() {
+        super.init(try! RoActivateInstance(HString("Microsoft.UI.Xaml.Controls.DynamicOverflowItemsChangingEventArgs")))
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.dynamicoverflowitemschangingeventargs.action)
+    public var action : CommandBarDynamicOverflowAction {
+        get { try! _default.get_ActionImpl() }
     }
 
     deinit {
@@ -13237,870 +13753,6 @@ open class ScrollView : WinUI.Control {
     }
 }
 
-/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer)
-public final class ScrollViewer : WinUI.ContentControl, IScrollAnchorProvider {
-    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IScrollViewer
-    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer
-    private lazy var _default: SwiftABI! = getInterfaceForCaching()
-    @_spi(WinRTInternal)
-    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
-        if T.self == CABI.self {
-            return RawPointer(_default)
-        }
-        return super._getABI()
-    }
-
-    @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer>?) -> ScrollViewer? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
-    override public init(fromAbi: WindowsFoundation.IInspectable) {
-        super.init(fromAbi: fromAbi)
-    }
-
-    override public func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
-        return super.queryInterface(iid)
-    }
-    override public init() {
-        super.init(fromAbi: try! RoActivateInstance(HString("Microsoft.UI.Xaml.Controls.ScrollViewer")))
-    }
-
-    private static let _IScrollViewerStatics: __ABI_Microsoft_UI_Xaml_Controls.IScrollViewerStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.ScrollViewer"))
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.gethorizontalscrollbarvisibility)
-    public static func getHorizontalScrollBarVisibility(_ element: WinUI.DependencyObject!) -> ScrollBarVisibility {
-        return try! _IScrollViewerStatics.GetHorizontalScrollBarVisibilityImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.sethorizontalscrollbarvisibility)
-    public static func setHorizontalScrollBarVisibility(_ element: WinUI.DependencyObject!, _ horizontalScrollBarVisibility: ScrollBarVisibility) {
-        try! _IScrollViewerStatics.SetHorizontalScrollBarVisibilityImpl(element, horizontalScrollBarVisibility)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.getverticalscrollbarvisibility)
-    public static func getVerticalScrollBarVisibility(_ element: WinUI.DependencyObject!) -> ScrollBarVisibility {
-        return try! _IScrollViewerStatics.GetVerticalScrollBarVisibilityImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.setverticalscrollbarvisibility)
-    public static func setVerticalScrollBarVisibility(_ element: WinUI.DependencyObject!, _ verticalScrollBarVisibility: ScrollBarVisibility) {
-        try! _IScrollViewerStatics.SetVerticalScrollBarVisibilityImpl(element, verticalScrollBarVisibility)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.getishorizontalrailenabled)
-    public static func getIsHorizontalRailEnabled(_ element: WinUI.DependencyObject!) -> Bool {
-        return try! _IScrollViewerStatics.GetIsHorizontalRailEnabledImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.setishorizontalrailenabled)
-    public static func setIsHorizontalRailEnabled(_ element: WinUI.DependencyObject!, _ isHorizontalRailEnabled: Bool) {
-        try! _IScrollViewerStatics.SetIsHorizontalRailEnabledImpl(element, isHorizontalRailEnabled)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.getisverticalrailenabled)
-    public static func getIsVerticalRailEnabled(_ element: WinUI.DependencyObject!) -> Bool {
-        return try! _IScrollViewerStatics.GetIsVerticalRailEnabledImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.setisverticalrailenabled)
-    public static func setIsVerticalRailEnabled(_ element: WinUI.DependencyObject!, _ isVerticalRailEnabled: Bool) {
-        try! _IScrollViewerStatics.SetIsVerticalRailEnabledImpl(element, isVerticalRailEnabled)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.getishorizontalscrollchainingenabled)
-    public static func getIsHorizontalScrollChainingEnabled(_ element: WinUI.DependencyObject!) -> Bool {
-        return try! _IScrollViewerStatics.GetIsHorizontalScrollChainingEnabledImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.setishorizontalscrollchainingenabled)
-    public static func setIsHorizontalScrollChainingEnabled(_ element: WinUI.DependencyObject!, _ isHorizontalScrollChainingEnabled: Bool) {
-        try! _IScrollViewerStatics.SetIsHorizontalScrollChainingEnabledImpl(element, isHorizontalScrollChainingEnabled)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.getisverticalscrollchainingenabled)
-    public static func getIsVerticalScrollChainingEnabled(_ element: WinUI.DependencyObject!) -> Bool {
-        return try! _IScrollViewerStatics.GetIsVerticalScrollChainingEnabledImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.setisverticalscrollchainingenabled)
-    public static func setIsVerticalScrollChainingEnabled(_ element: WinUI.DependencyObject!, _ isVerticalScrollChainingEnabled: Bool) {
-        try! _IScrollViewerStatics.SetIsVerticalScrollChainingEnabledImpl(element, isVerticalScrollChainingEnabled)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.getiszoomchainingenabled)
-    public static func getIsZoomChainingEnabled(_ element: WinUI.DependencyObject!) -> Bool {
-        return try! _IScrollViewerStatics.GetIsZoomChainingEnabledImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.setiszoomchainingenabled)
-    public static func setIsZoomChainingEnabled(_ element: WinUI.DependencyObject!, _ isZoomChainingEnabled: Bool) {
-        try! _IScrollViewerStatics.SetIsZoomChainingEnabledImpl(element, isZoomChainingEnabled)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.getisscrollinertiaenabled)
-    public static func getIsScrollInertiaEnabled(_ element: WinUI.DependencyObject!) -> Bool {
-        return try! _IScrollViewerStatics.GetIsScrollInertiaEnabledImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.setisscrollinertiaenabled)
-    public static func setIsScrollInertiaEnabled(_ element: WinUI.DependencyObject!, _ isScrollInertiaEnabled: Bool) {
-        try! _IScrollViewerStatics.SetIsScrollInertiaEnabledImpl(element, isScrollInertiaEnabled)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.getiszoominertiaenabled)
-    public static func getIsZoomInertiaEnabled(_ element: WinUI.DependencyObject!) -> Bool {
-        return try! _IScrollViewerStatics.GetIsZoomInertiaEnabledImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.setiszoominertiaenabled)
-    public static func setIsZoomInertiaEnabled(_ element: WinUI.DependencyObject!, _ isZoomInertiaEnabled: Bool) {
-        try! _IScrollViewerStatics.SetIsZoomInertiaEnabledImpl(element, isZoomInertiaEnabled)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.gethorizontalscrollmode)
-    public static func getHorizontalScrollMode(_ element: WinUI.DependencyObject!) -> ScrollMode {
-        return try! _IScrollViewerStatics.GetHorizontalScrollModeImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.sethorizontalscrollmode)
-    public static func setHorizontalScrollMode(_ element: WinUI.DependencyObject!, _ horizontalScrollMode: ScrollMode) {
-        try! _IScrollViewerStatics.SetHorizontalScrollModeImpl(element, horizontalScrollMode)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.getverticalscrollmode)
-    public static func getVerticalScrollMode(_ element: WinUI.DependencyObject!) -> ScrollMode {
-        return try! _IScrollViewerStatics.GetVerticalScrollModeImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.setverticalscrollmode)
-    public static func setVerticalScrollMode(_ element: WinUI.DependencyObject!, _ verticalScrollMode: ScrollMode) {
-        try! _IScrollViewerStatics.SetVerticalScrollModeImpl(element, verticalScrollMode)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.getzoommode)
-    public static func getZoomMode(_ element: WinUI.DependencyObject!) -> ZoomMode {
-        return try! _IScrollViewerStatics.GetZoomModeImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.setzoommode)
-    public static func setZoomMode(_ element: WinUI.DependencyObject!, _ zoomMode: ZoomMode) {
-        try! _IScrollViewerStatics.SetZoomModeImpl(element, zoomMode)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.getcancontentrenderoutsidebounds)
-    public static func getCanContentRenderOutsideBounds(_ element: WinUI.DependencyObject!) -> Bool {
-        return try! _IScrollViewerStatics.GetCanContentRenderOutsideBoundsImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.setcancontentrenderoutsidebounds)
-    public static func setCanContentRenderOutsideBounds(_ element: WinUI.DependencyObject!, _ canContentRenderOutsideBounds: Bool) {
-        try! _IScrollViewerStatics.SetCanContentRenderOutsideBoundsImpl(element, canContentRenderOutsideBounds)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.getisdeferredscrollingenabled)
-    public static func getIsDeferredScrollingEnabled(_ element: WinUI.DependencyObject!) -> Bool {
-        return try! _IScrollViewerStatics.GetIsDeferredScrollingEnabledImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.setisdeferredscrollingenabled)
-    public static func setIsDeferredScrollingEnabled(_ element: WinUI.DependencyObject!, _ isDeferredScrollingEnabled: Bool) {
-        try! _IScrollViewerStatics.SetIsDeferredScrollingEnabledImpl(element, isDeferredScrollingEnabled)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.getbringintoviewonfocuschange)
-    public static func getBringIntoViewOnFocusChange(_ element: WinUI.DependencyObject!) -> Bool {
-        return try! _IScrollViewerStatics.GetBringIntoViewOnFocusChangeImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.setbringintoviewonfocuschange)
-    public static func setBringIntoViewOnFocusChange(_ element: WinUI.DependencyObject!, _ bringIntoViewOnFocusChange: Bool) {
-        try! _IScrollViewerStatics.SetBringIntoViewOnFocusChangeImpl(element, bringIntoViewOnFocusChange)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.bringintoviewonfocuschangeproperty)
-    public static var bringIntoViewOnFocusChangeProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_BringIntoViewOnFocusChangePropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.cancontentrenderoutsideboundsproperty)
-    public static var canContentRenderOutsideBoundsProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_CanContentRenderOutsideBoundsPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.computedhorizontalscrollbarvisibilityproperty)
-    public static var computedHorizontalScrollBarVisibilityProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_ComputedHorizontalScrollBarVisibilityPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.computedverticalscrollbarvisibilityproperty)
-    public static var computedVerticalScrollBarVisibilityProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_ComputedVerticalScrollBarVisibilityPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.extentheightproperty)
-    public static var extentHeightProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_ExtentHeightPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.extentwidthproperty)
-    public static var extentWidthProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_ExtentWidthPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.horizontalanchorratioproperty)
-    public static var horizontalAnchorRatioProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_HorizontalAnchorRatioPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.horizontaloffsetproperty)
-    public static var horizontalOffsetProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_HorizontalOffsetPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.horizontalscrollbarvisibilityproperty)
-    public static var horizontalScrollBarVisibilityProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_HorizontalScrollBarVisibilityPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.horizontalscrollmodeproperty)
-    public static var horizontalScrollModeProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_HorizontalScrollModePropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.horizontalsnappointsalignmentproperty)
-    public static var horizontalSnapPointsAlignmentProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_HorizontalSnapPointsAlignmentPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.horizontalsnappointstypeproperty)
-    public static var horizontalSnapPointsTypeProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_HorizontalSnapPointsTypePropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.isdeferredscrollingenabledproperty)
-    public static var isDeferredScrollingEnabledProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_IsDeferredScrollingEnabledPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.ishorizontalrailenabledproperty)
-    public static var isHorizontalRailEnabledProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_IsHorizontalRailEnabledPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.ishorizontalscrollchainingenabledproperty)
-    public static var isHorizontalScrollChainingEnabledProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_IsHorizontalScrollChainingEnabledPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.isscrollinertiaenabledproperty)
-    public static var isScrollInertiaEnabledProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_IsScrollInertiaEnabledPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.isverticalrailenabledproperty)
-    public static var isVerticalRailEnabledProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_IsVerticalRailEnabledPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.isverticalscrollchainingenabledproperty)
-    public static var isVerticalScrollChainingEnabledProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_IsVerticalScrollChainingEnabledPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.iszoomchainingenabledproperty)
-    public static var isZoomChainingEnabledProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_IsZoomChainingEnabledPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.iszoominertiaenabledproperty)
-    public static var isZoomInertiaEnabledProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_IsZoomInertiaEnabledPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.leftheaderproperty)
-    public static var leftHeaderProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_LeftHeaderPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.maxzoomfactorproperty)
-    public static var maxZoomFactorProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_MaxZoomFactorPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.minzoomfactorproperty)
-    public static var minZoomFactorProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_MinZoomFactorPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.reduceviewportforcoreinputviewocclusionsproperty)
-    public static var reduceViewportForCoreInputViewOcclusionsProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_ReduceViewportForCoreInputViewOcclusionsPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.scrollableheightproperty)
-    public static var scrollableHeightProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_ScrollableHeightPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.scrollablewidthproperty)
-    public static var scrollableWidthProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_ScrollableWidthPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.topheaderproperty)
-    public static var topHeaderProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_TopHeaderPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.topleftheaderproperty)
-    public static var topLeftHeaderProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_TopLeftHeaderPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.verticalanchorratioproperty)
-    public static var verticalAnchorRatioProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_VerticalAnchorRatioPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.verticaloffsetproperty)
-    public static var verticalOffsetProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_VerticalOffsetPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.verticalscrollbarvisibilityproperty)
-    public static var verticalScrollBarVisibilityProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_VerticalScrollBarVisibilityPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.verticalscrollmodeproperty)
-    public static var verticalScrollModeProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_VerticalScrollModePropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.verticalsnappointsalignmentproperty)
-    public static var verticalSnapPointsAlignmentProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_VerticalSnapPointsAlignmentPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.verticalsnappointstypeproperty)
-    public static var verticalSnapPointsTypeProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_VerticalSnapPointsTypePropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.viewportheightproperty)
-    public static var viewportHeightProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_ViewportHeightPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.viewportwidthproperty)
-    public static var viewportWidthProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_ViewportWidthPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.zoomfactorproperty)
-    public static var zoomFactorProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_ZoomFactorPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.zoommodeproperty)
-    public static var zoomModeProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_ZoomModePropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.zoomsnappointsproperty)
-    public static var zoomSnapPointsProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_ZoomSnapPointsPropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.zoomsnappointstypeproperty)
-    public static var zoomSnapPointsTypeProperty : WinUI.DependencyProperty! {
-        get { try! _IScrollViewerStatics.get_ZoomSnapPointsTypePropertyImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.scrolltohorizontaloffset)
-    public func scrollToHorizontalOffset(_ offset: Double) throws {
-        try _default.ScrollToHorizontalOffsetImpl(offset)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.scrolltoverticaloffset)
-    public func scrollToVerticalOffset(_ offset: Double) throws {
-        try _default.ScrollToVerticalOffsetImpl(offset)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.zoomtofactor)
-    public func zoomToFactor(_ factor: Float) throws {
-        try _default.ZoomToFactorImpl(factor)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.changeview)
-    public func changeView(_ horizontalOffset: Double?, _ verticalOffset: Double?, _ zoomFactor: Float?) throws -> Bool {
-        try _default.ChangeViewImpl(horizontalOffset, verticalOffset, zoomFactor)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.changeview)
-    public func changeView(_ horizontalOffset: Double?, _ verticalOffset: Double?, _ zoomFactor: Float?, _ disableAnimation: Bool) throws -> Bool {
-        try _default.ChangeViewWithOptionalAnimationImpl(horizontalOffset, verticalOffset, zoomFactor, disableAnimation)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.invalidatescrollinfo)
-    public func invalidateScrollInfo() throws {
-        try _default.InvalidateScrollInfoImpl()
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.bringintoviewonfocuschange)
-    public var bringIntoViewOnFocusChange : Bool {
-        get { try! _default.get_BringIntoViewOnFocusChangeImpl() }
-        set { try! _default.put_BringIntoViewOnFocusChangeImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.cancontentrenderoutsidebounds)
-    public var canContentRenderOutsideBounds : Bool {
-        get { try! _default.get_CanContentRenderOutsideBoundsImpl() }
-        set { try! _default.put_CanContentRenderOutsideBoundsImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.computedhorizontalscrollbarvisibility)
-    public var computedHorizontalScrollBarVisibility : WinUI.Visibility {
-        get { try! _default.get_ComputedHorizontalScrollBarVisibilityImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.computedverticalscrollbarvisibility)
-    public var computedVerticalScrollBarVisibility : WinUI.Visibility {
-        get { try! _default.get_ComputedVerticalScrollBarVisibilityImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.extentheight)
-    public var extentHeight : Double {
-        get { try! _default.get_ExtentHeightImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.extentwidth)
-    public var extentWidth : Double {
-        get { try! _default.get_ExtentWidthImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.horizontalanchorratio)
-    public var horizontalAnchorRatio : Double {
-        get { try! _default.get_HorizontalAnchorRatioImpl() }
-        set { try! _default.put_HorizontalAnchorRatioImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.horizontaloffset)
-    public var horizontalOffset : Double {
-        get { try! _default.get_HorizontalOffsetImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.horizontalscrollbarvisibility)
-    public var horizontalScrollBarVisibility : ScrollBarVisibility {
-        get { try! _default.get_HorizontalScrollBarVisibilityImpl() }
-        set { try! _default.put_HorizontalScrollBarVisibilityImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.horizontalscrollmode)
-    public var horizontalScrollMode : ScrollMode {
-        get { try! _default.get_HorizontalScrollModeImpl() }
-        set { try! _default.put_HorizontalScrollModeImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.horizontalsnappointsalignment)
-    public var horizontalSnapPointsAlignment : WinUI.SnapPointsAlignment {
-        get { try! _default.get_HorizontalSnapPointsAlignmentImpl() }
-        set { try! _default.put_HorizontalSnapPointsAlignmentImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.horizontalsnappointstype)
-    public var horizontalSnapPointsType : SnapPointsType {
-        get { try! _default.get_HorizontalSnapPointsTypeImpl() }
-        set { try! _default.put_HorizontalSnapPointsTypeImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.isdeferredscrollingenabled)
-    public var isDeferredScrollingEnabled : Bool {
-        get { try! _default.get_IsDeferredScrollingEnabledImpl() }
-        set { try! _default.put_IsDeferredScrollingEnabledImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.ishorizontalrailenabled)
-    public var isHorizontalRailEnabled : Bool {
-        get { try! _default.get_IsHorizontalRailEnabledImpl() }
-        set { try! _default.put_IsHorizontalRailEnabledImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.ishorizontalscrollchainingenabled)
-    public var isHorizontalScrollChainingEnabled : Bool {
-        get { try! _default.get_IsHorizontalScrollChainingEnabledImpl() }
-        set { try! _default.put_IsHorizontalScrollChainingEnabledImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.isscrollinertiaenabled)
-    public var isScrollInertiaEnabled : Bool {
-        get { try! _default.get_IsScrollInertiaEnabledImpl() }
-        set { try! _default.put_IsScrollInertiaEnabledImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.isverticalrailenabled)
-    public var isVerticalRailEnabled : Bool {
-        get { try! _default.get_IsVerticalRailEnabledImpl() }
-        set { try! _default.put_IsVerticalRailEnabledImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.isverticalscrollchainingenabled)
-    public var isVerticalScrollChainingEnabled : Bool {
-        get { try! _default.get_IsVerticalScrollChainingEnabledImpl() }
-        set { try! _default.put_IsVerticalScrollChainingEnabledImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.iszoomchainingenabled)
-    public var isZoomChainingEnabled : Bool {
-        get { try! _default.get_IsZoomChainingEnabledImpl() }
-        set { try! _default.put_IsZoomChainingEnabledImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.iszoominertiaenabled)
-    public var isZoomInertiaEnabled : Bool {
-        get { try! _default.get_IsZoomInertiaEnabledImpl() }
-        set { try! _default.put_IsZoomInertiaEnabledImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.leftheader)
-    public var leftHeader : WinUI.UIElement! {
-        get { try! _default.get_LeftHeaderImpl() }
-        set { try! _default.put_LeftHeaderImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.maxzoomfactor)
-    public var maxZoomFactor : Float {
-        get { try! _default.get_MaxZoomFactorImpl() }
-        set { try! _default.put_MaxZoomFactorImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.minzoomfactor)
-    public var minZoomFactor : Float {
-        get { try! _default.get_MinZoomFactorImpl() }
-        set { try! _default.put_MinZoomFactorImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.reduceviewportforcoreinputviewocclusions)
-    public var reduceViewportForCoreInputViewOcclusions : Bool {
-        get { try! _default.get_ReduceViewportForCoreInputViewOcclusionsImpl() }
-        set { try! _default.put_ReduceViewportForCoreInputViewOcclusionsImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.scrollableheight)
-    public var scrollableHeight : Double {
-        get { try! _default.get_ScrollableHeightImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.scrollablewidth)
-    public var scrollableWidth : Double {
-        get { try! _default.get_ScrollableWidthImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.topheader)
-    public var topHeader : WinUI.UIElement! {
-        get { try! _default.get_TopHeaderImpl() }
-        set { try! _default.put_TopHeaderImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.topleftheader)
-    public var topLeftHeader : WinUI.UIElement! {
-        get { try! _default.get_TopLeftHeaderImpl() }
-        set { try! _default.put_TopLeftHeaderImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.verticalanchorratio)
-    public var verticalAnchorRatio : Double {
-        get { try! _default.get_VerticalAnchorRatioImpl() }
-        set { try! _default.put_VerticalAnchorRatioImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.verticaloffset)
-    public var verticalOffset : Double {
-        get { try! _default.get_VerticalOffsetImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.verticalscrollbarvisibility)
-    public var verticalScrollBarVisibility : ScrollBarVisibility {
-        get { try! _default.get_VerticalScrollBarVisibilityImpl() }
-        set { try! _default.put_VerticalScrollBarVisibilityImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.verticalscrollmode)
-    public var verticalScrollMode : ScrollMode {
-        get { try! _default.get_VerticalScrollModeImpl() }
-        set { try! _default.put_VerticalScrollModeImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.verticalsnappointsalignment)
-    public var verticalSnapPointsAlignment : WinUI.SnapPointsAlignment {
-        get { try! _default.get_VerticalSnapPointsAlignmentImpl() }
-        set { try! _default.put_VerticalSnapPointsAlignmentImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.verticalsnappointstype)
-    public var verticalSnapPointsType : SnapPointsType {
-        get { try! _default.get_VerticalSnapPointsTypeImpl() }
-        set { try! _default.put_VerticalSnapPointsTypeImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.viewportheight)
-    public var viewportHeight : Double {
-        get { try! _default.get_ViewportHeightImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.viewportwidth)
-    public var viewportWidth : Double {
-        get { try! _default.get_ViewportWidthImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.zoomfactor)
-    public var zoomFactor : Float {
-        get { try! _default.get_ZoomFactorImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.zoommode)
-    public var zoomMode : ZoomMode {
-        get { try! _default.get_ZoomModeImpl() }
-        set { try! _default.put_ZoomModeImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.zoomsnappoints)
-    public var zoomSnapPoints : WindowsFoundation.AnyIVector<Float>! {
-        get { try! _default.get_ZoomSnapPointsImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.zoomsnappointstype)
-    public var zoomSnapPointsType : SnapPointsType {
-        get { try! _default.get_ZoomSnapPointsTypeImpl() }
-        set { try! _default.put_ZoomSnapPointsTypeImpl(newValue) }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.anchorrequested)
-    public lazy var anchorRequested : Event<TypedEventHandler<ScrollViewer?, AnchorRequestedEventArgs?>> = {
-      .init(
-        add: { [weak self] in
-          guard let this = self?._default else { return .init() }
-          return try! this.add_AnchorRequestedImpl($0)
-        },
-        remove: { [weak self] in
-         try? self?._default.remove_AnchorRequestedImpl($0)
-       }
-      )
-    }()
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.directmanipulationcompleted)
-    public lazy var directManipulationCompleted : Event<EventHandler<Any?>> = {
-      .init(
-        add: { [weak self] in
-          guard let this = self?._default else { return .init() }
-          return try! this.add_DirectManipulationCompletedImpl($0)
-        },
-        remove: { [weak self] in
-         try? self?._default.remove_DirectManipulationCompletedImpl($0)
-       }
-      )
-    }()
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.directmanipulationstarted)
-    public lazy var directManipulationStarted : Event<EventHandler<Any?>> = {
-      .init(
-        add: { [weak self] in
-          guard let this = self?._default else { return .init() }
-          return try! this.add_DirectManipulationStartedImpl($0)
-        },
-        remove: { [weak self] in
-         try? self?._default.remove_DirectManipulationStartedImpl($0)
-       }
-      )
-    }()
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.viewchanged)
-    public lazy var viewChanged : Event<EventHandler<ScrollViewerViewChangedEventArgs?>> = {
-      .init(
-        add: { [weak self] in
-          guard let this = self?._default else { return .init() }
-          return try! this.add_ViewChangedImpl($0)
-        },
-        remove: { [weak self] in
-         try? self?._default.remove_ViewChangedImpl($0)
-       }
-      )
-    }()
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.viewchanging)
-    public lazy var viewChanging : Event<EventHandler<ScrollViewerViewChangingEventArgs?>> = {
-      .init(
-        add: { [weak self] in
-          guard let this = self?._default else { return .init() }
-          return try! this.add_ViewChangingImpl($0)
-        },
-        remove: { [weak self] in
-         try? self?._default.remove_ViewChangingImpl($0)
-       }
-      )
-    }()
-
-    private lazy var _IScrollAnchorProvider: __ABI_Microsoft_UI_Xaml_Controls.IScrollAnchorProvider! = getInterfaceForCaching()
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.registeranchorcandidate)
-    public func registerAnchorCandidate(_ element: WinUI.UIElement!) throws {
-        try _IScrollAnchorProvider.RegisterAnchorCandidateImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.unregisteranchorcandidate)
-    public func unregisterAnchorCandidate(_ element: WinUI.UIElement!) throws {
-        try _IScrollAnchorProvider.UnregisterAnchorCandidateImpl(element)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer.currentanchor)
-    public var currentAnchor : WinUI.UIElement! {
-        get { try! _IScrollAnchorProvider.get_CurrentAnchorImpl() }
-    }
-
-    internal enum IContentControlOverrides : ComposableImpl {
-        internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIContentControlOverrides
-        internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IContentControlOverrides
-        internal typealias Class = ScrollViewer
-        internal typealias SwiftProjection = WinRTClassWeakReference<Class>
-        internal enum Default : AbiInterface {
-            internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewer
-            internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IScrollViewer
-        }
-    }
-    internal typealias Composable = IContentControlOverrides
-    deinit {
-        _default = nil
-        _IScrollAnchorProvider = nil
-    }
-}
-
-/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewerview)
-public final class ScrollViewerView : WinRTClass {
-    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IScrollViewerView
-    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerView
-    private lazy var _default: SwiftABI! = getInterfaceForCaching()
-    @_spi(WinRTInternal)
-    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
-        if T.self == CABI.self {
-            return RawPointer(_default)
-        }
-        return super._getABI()
-    }
-
-    @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerView>?) -> ScrollViewerView? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
-    public init(fromAbi: WindowsFoundation.IInspectable) {
-        super.init(fromAbi)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewerview.horizontaloffset)
-    public var horizontalOffset : Double {
-        get { try! _default.get_HorizontalOffsetImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewerview.verticaloffset)
-    public var verticalOffset : Double {
-        get { try! _default.get_VerticalOffsetImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewerview.zoomfactor)
-    public var zoomFactor : Float {
-        get { try! _default.get_ZoomFactorImpl() }
-    }
-
-    deinit {
-        _default = nil
-    }
-}
-
-/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewerviewchangedeventargs)
-public final class ScrollViewerViewChangedEventArgs : WinRTClass {
-    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IScrollViewerViewChangedEventArgs
-    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerViewChangedEventArgs
-    private lazy var _default: SwiftABI! = getInterfaceForCaching()
-    @_spi(WinRTInternal)
-    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
-        if T.self == CABI.self {
-            return RawPointer(_default)
-        }
-        return super._getABI()
-    }
-
-    @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerViewChangedEventArgs>?) -> ScrollViewerViewChangedEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
-    public init(fromAbi: WindowsFoundation.IInspectable) {
-        super.init(fromAbi)
-    }
-
-    override public init() {
-        super.init(try! RoActivateInstance(HString("Microsoft.UI.Xaml.Controls.ScrollViewerViewChangedEventArgs")))
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewerviewchangedeventargs.isintermediate)
-    public var isIntermediate : Bool {
-        get { try! _default.get_IsIntermediateImpl() }
-    }
-
-    deinit {
-        _default = nil
-    }
-}
-
-/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewerviewchangingeventargs)
-public final class ScrollViewerViewChangingEventArgs : WinRTClass {
-    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IScrollViewerViewChangingEventArgs
-    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerViewChangingEventArgs
-    private lazy var _default: SwiftABI! = getInterfaceForCaching()
-    @_spi(WinRTInternal)
-    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
-        if T.self == CABI.self {
-            return RawPointer(_default)
-        }
-        return super._getABI()
-    }
-
-    @_spi(WinRTInternal)
-    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollViewerViewChangingEventArgs>?) -> ScrollViewerViewChangingEventArgs? {
-        guard let abi = abi else { return nil }
-        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
-    }
-
-    @_spi(WinRTInternal)
-    public init(fromAbi: WindowsFoundation.IInspectable) {
-        super.init(fromAbi)
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewerviewchangingeventargs.finalview)
-    public var finalView : ScrollViewerView! {
-        get { try! _default.get_FinalViewImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewerviewchangingeventargs.isinertial)
-    public var isInertial : Bool {
-        get { try! _default.get_IsInertialImpl() }
-    }
-
-    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewerviewchangingeventargs.nextview)
-    public var nextView : ScrollViewerView! {
-        get { try! _default.get_NextViewImpl() }
-    }
-
-    deinit {
-        _default = nil
-    }
-}
-
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollinganchorrequestedeventargs)
 public final class ScrollingAnchorRequestedEventArgs : WinRTClass {
     private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IScrollingAnchorRequestedEventArgs
@@ -19724,6 +19376,28 @@ public typealias SelectionChangedEventHandler = (Any?, SelectionChangedEventArgs
 public typealias SemanticZoomViewChangedEventHandler = (Any?, SemanticZoomViewChangedEventArgs?) -> ()
 public typealias TextChangedEventHandler = (Any?, TextChangedEventArgs?) -> ()
 public typealias TextControlPasteEventHandler = (Any?, TextControlPasteEventArgs?) -> ()
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.icommandbarelement)
+public protocol ICommandBarElement : WinRTInterface {
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.icommandbarelement.dynamicoverfloworder)
+    var dynamicOverflowOrder: Int32 { get set }
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.icommandbarelement.iscompact)
+    var isCompact: Bool { get set }
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.icommandbarelement.isinoverflow)
+    var isInOverflow: Bool { get }
+}
+
+extension ICommandBarElement {
+    public func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
+        switch iid {
+            case __ABI_Microsoft_UI_Xaml_Controls.ICommandBarElementWrapper.IID:
+                let wrapper = __ABI_Microsoft_UI_Xaml_Controls.ICommandBarElementWrapper(self)
+                return wrapper!.queryInterface(iid)
+            default: return nil
+        }
+    }
+}
+public typealias AnyICommandBarElement = any ICommandBarElement
+
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.iinsertionpanel)
 public protocol IInsertionPanel : WinRTInterface {
     /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.iinsertionpanel.getinsertionindexes)
@@ -19943,6 +19617,52 @@ extension WinUI.ComboBoxSelectionChangedTrigger {
     }
 }
 extension WinUI.ComboBoxSelectionChangedTrigger: @retroactive Hashable, @retroactive Codable {}
+
+extension WinUI.CommandBarDefaultLabelPosition {
+    public static var bottom : WinUI.CommandBarDefaultLabelPosition {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarDefaultLabelPosition_Bottom
+    }
+    public static var right : WinUI.CommandBarDefaultLabelPosition {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarDefaultLabelPosition_Right
+    }
+    public static var collapsed : WinUI.CommandBarDefaultLabelPosition {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarDefaultLabelPosition_Collapsed
+    }
+}
+extension WinUI.CommandBarDefaultLabelPosition: @retroactive Hashable, @retroactive Codable {}
+
+extension WinUI.CommandBarDynamicOverflowAction {
+    public static var addingToOverflow : WinUI.CommandBarDynamicOverflowAction {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarDynamicOverflowAction_AddingToOverflow
+    }
+    public static var removingFromOverflow : WinUI.CommandBarDynamicOverflowAction {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarDynamicOverflowAction_RemovingFromOverflow
+    }
+}
+extension WinUI.CommandBarDynamicOverflowAction: @retroactive Hashable, @retroactive Codable {}
+
+extension WinUI.CommandBarLabelPosition {
+    public static var `default` : WinUI.CommandBarLabelPosition {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarLabelPosition_Default
+    }
+    public static var collapsed : WinUI.CommandBarLabelPosition {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarLabelPosition_Collapsed
+    }
+}
+extension WinUI.CommandBarLabelPosition: @retroactive Hashable, @retroactive Codable {}
+
+extension WinUI.CommandBarOverflowButtonVisibility {
+    public static var auto : WinUI.CommandBarOverflowButtonVisibility {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarOverflowButtonVisibility_Auto
+    }
+    public static var visible : WinUI.CommandBarOverflowButtonVisibility {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarOverflowButtonVisibility_Visible
+    }
+    public static var collapsed : WinUI.CommandBarOverflowButtonVisibility {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CCommandBarOverflowButtonVisibility_Collapsed
+    }
+}
+extension WinUI.CommandBarOverflowButtonVisibility: @retroactive Hashable, @retroactive Codable {}
 
 extension WinUI.ContentDialogButton {
     public static var none : WinUI.ContentDialogButton {
@@ -20240,22 +19960,6 @@ extension WinUI.RequiresPointer {
 }
 extension WinUI.RequiresPointer: @retroactive Hashable, @retroactive Codable {}
 
-extension WinUI.ScrollBarVisibility {
-    public static var disabled : WinUI.ScrollBarVisibility {
-        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollBarVisibility_Disabled
-    }
-    public static var auto : WinUI.ScrollBarVisibility {
-        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollBarVisibility_Auto
-    }
-    public static var hidden : WinUI.ScrollBarVisibility {
-        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollBarVisibility_Hidden
-    }
-    public static var visible : WinUI.ScrollBarVisibility {
-        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollBarVisibility_Visible
-    }
-}
-extension WinUI.ScrollBarVisibility: @retroactive Hashable, @retroactive Codable {}
-
 extension WinUI.ScrollIntoViewAlignment {
     public static var `default` : WinUI.ScrollIntoViewAlignment {
         __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollIntoViewAlignment_Default
@@ -20265,19 +19969,6 @@ extension WinUI.ScrollIntoViewAlignment {
     }
 }
 extension WinUI.ScrollIntoViewAlignment: @retroactive Hashable, @retroactive Codable {}
-
-extension WinUI.ScrollMode {
-    public static var disabled : WinUI.ScrollMode {
-        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollMode_Disabled
-    }
-    public static var enabled : WinUI.ScrollMode {
-        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollMode_Enabled
-    }
-    public static var auto : WinUI.ScrollMode {
-        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CScrollMode_Auto
-    }
-}
-extension WinUI.ScrollMode: @retroactive Hashable, @retroactive Codable {}
 
 extension WinUI.ScrollingAnimationMode {
     public static var disabled : WinUI.ScrollingAnimationMode {
@@ -20430,25 +20121,6 @@ extension WinUI.SelectionMode {
     }
 }
 extension WinUI.SelectionMode: @retroactive Hashable, @retroactive Codable {}
-
-extension WinUI.SnapPointsType {
-    public static var none : WinUI.SnapPointsType {
-        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSnapPointsType_None
-    }
-    public static var optional : WinUI.SnapPointsType {
-        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSnapPointsType_Optional
-    }
-    public static var mandatory : WinUI.SnapPointsType {
-        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSnapPointsType_Mandatory
-    }
-    public static var optionalSingle : WinUI.SnapPointsType {
-        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSnapPointsType_OptionalSingle
-    }
-    public static var mandatorySingle : WinUI.SnapPointsType {
-        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CSnapPointsType_MandatorySingle
-    }
-}
-extension WinUI.SnapPointsType: @retroactive Hashable, @retroactive Codable {}
 
 extension WinUI.SplitViewDisplayMode {
     public static var overlay : WinUI.SplitViewDisplayMode {
@@ -20608,14 +20280,4 @@ extension WinUI.UniformGridLayoutItemsStretch {
     }
 }
 extension WinUI.UniformGridLayoutItemsStretch: @retroactive Hashable, @retroactive Codable {}
-
-extension WinUI.ZoomMode {
-    public static var disabled : WinUI.ZoomMode {
-        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CZoomMode_Disabled
-    }
-    public static var enabled : WinUI.ZoomMode {
-        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CZoomMode_Enabled
-    }
-}
-extension WinUI.ZoomMode: @retroactive Hashable, @retroactive Codable {}
 
